@@ -81,28 +81,42 @@
             <h2>Speakers</h2>
             <div class="speakers-grid">
                 <div class="speaker-block">
-                    <a href="#"><img src="images/speakers/russ-unger.jpg" alt=""></a>
+                    <a href="#" class="speaker-info">
+                      <h3>Russ Unger</h3>
+                      <h5>Chigago, IL, Estados Unidos</h5>
+                    </a>
+                    <img src="images/speakers/russ-unger.jpg" alt="">
                 </div>
                 <div class="speaker-block">
-                    <a href="#"><img src="images/speakers/stephen-anderson.jpg" alt=""></a>
+                    <a href="#" class="speaker-info">
+                        <h3>Stephen Anderson</h3>
+                        <h5>Dallas, TX, Estados Unidos</h5>
+                    </a>
+                    <img src="images/speakers/stephen-anderson.jpg" alt="">
                 </div>
-                <div class="speaker-block color-green">
+                <div class="speaker-block color-green" data-toggle="tooltip" data-placement="top" title="Proximamente!">
                     <div class="unknown"></div>
+                    <img src="images/transparency.gif" alt="">
                 </div>
-                <div class="speaker-block color-violet">
+                <div class="speaker-block color-violet" data-toggle="tooltip" data-placement="top" title="Proximamente!">
                     <div class="unknown"></div>
+                    <img src="images/transparency.gif" alt="">
                 </div>
-                <div class="speaker-block color-orange">
+                <div class="speaker-block color-orange" data-toggle="tooltip" data-placement="top" title="Proximamente!">
                     <div class="unknown"></div>
+                    <img src="images/transparency.gif" alt="">
                 </div>
-                <div class="speaker-block color-green-2">
+                <div class="speaker-block color-green-2" data-toggle="tooltip" data-placement="top" title="Proximamente!">
                     <div class="unknown"></div>
+                    <img src="images/transparency.gif" alt="">
                 </div>
-                <div class="speaker-block color-yellow">
+                <div class="speaker-block color-yellow" data-toggle="tooltip" data-placement="top" title="Proximamente!">
                     <div class="unknown"></div>
+                    <img src="images/transparency.gif" alt="">
                 </div>
-                <div class="speaker-block color-pink">
+                <div class="speaker-block color-pink" data-toggle="tooltip" data-placement="top" title="Proximamente!">
                     <div class="unknown"></div>
+                    <img src="images/transparency.gif" alt="">
                 </div>
             </div>
         </section>
@@ -119,6 +133,7 @@
                 horizontalScrolling: false,
                 verticalOffset: 40
               });
+              $('[data-toggle="tooltip"]').tooltip()
             });
         </script>
     </body>
