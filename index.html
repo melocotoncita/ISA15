@@ -8,7 +8,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <!-- Custom styles for this template -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">         
+        <link rel="stylesheet" type="text/css" href="css/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?&sensor=false"></script>
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src="../../js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -27,8 +30,9 @@
             ga('send', 'pageview');
             
         </script>
+        
     </head>
-    <body data-spy="scroll" data-offset="0">
+    <body data-spy="scroll" data-offset="0" data-target="#theMenu">
         <!-- Menu -->
         <header>
             <nav class="navbar">
@@ -43,11 +47,12 @@
                     </div>
                     <div class="collapse navbar-collapse" id="mobile-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#speakers" class="smoothScroll">Speakers</a></li>
-                            <li><a href="#isa" class="smoothScroll">ISA</a></li>
-                            <li><a href="#tickets" class="smoothScroll">Tickets</a></li>
-                            <li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
-                            <li><a href="#sponsors" class="smoothScroll">ISA14</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+                            <li><a href="#isa">ISA</a></li>
+                            <li><a href="#tickets">Tickets</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#sponsors">ISA14</a></li>
                             <li>
                                 <div class="dropdown">
                                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
@@ -66,7 +71,7 @@
                 </div>
             </nav>
         </header>
-        <section id="home" name="home">
+        <section id="home" name="home" data-midnight="white">
             <div class="hero">
                 <div class="hero-logo"></div>
                 <div class="copy">
@@ -85,12 +90,6 @@
                       <h5>Chigago, IL, Estados Unidos</h5>
                     </a>
                     <img src="images/speakers/russ-unger.jpg" alt="">
-                </div>
-                <div class="speaker-bio">
-                    <h3>Russ Unger</h3>
-                    <h5>Chigago, IL, Estados Unidos</h5>
-                    <p>Russ Unger, es Director de Experiencia de Usuario trabaja desde Chicago donde lidera equipos y proyectos sobre diseño e investigación. Es co-autor de los libros: A Project Guide to UX Design, Designing the Conversation y Speaker Camp para New Riders (Voices That Matter). Russ se encuentra trabajando en un nuevo libro sobre técnicas de guerrilla para diseño y métodos de investigación. 
-                    Russ es co-fundador de ChicagoCamps una iniciativa que alberga eventos sobre la temática tecnológica de alta calidad y bajo costo. También es miembro de la junta asesora para el Departamento de Diseño web y desarrollo de la Harrington College of Design. Russ tiene dos hijas que dibujan mejor que él y están comenzando a pasarlo en sus limitadas capacidades para programar.</p>
                 </div>
                 <div class="speaker-block">
                     <a href="#" class="speaker-info">
@@ -125,13 +124,105 @@
                 </div>
             </div>
         </section>
+        <section>
+           <div class="container">
+            <header class="clearfix">
+                <h1>Speakers</h1> 
+            </header>
+            <div class="main">
+                <ul id="og-grid" class="og-grid">
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img01"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img02"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img03"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img01"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img02"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img03"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img01"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img02"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img03"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img01"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img02"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-largesrc="images/speakers/stephen-anderson.jpg" data-title="Russ Unger" data-description="Russ Unger is an Experience Design Director in Chicago where he leads teams and projects in design and research. He is co-author of the books A Project Guide to UX Design, Designing the Conversation, and Speaker Camp for New Riders (Voices That Matter). Russ is also working on a book on guerrilla design and research methods that is due out, well, sometime.
+Russ is co-founder of ChicagoCamps, which hosts low-cost, high-value technology events in the Chicago area, and he is also on the Advisory Board for the Department of Web Design and Development at Harrington College of Design. Russ has two daughters who both draw better than he does and are currently beginning to surpass his limited abilities in coding.">
+                            <img src="images/speakers/russ-unger.jpg" alt="img03"/>
+                        </a>
+                    </li>                    
+                </ul>                
+            </div>
+        </div><!-- /container -->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/grid.js"></script>
+        <script>
+            $(function() {
+                Grid.init();
+            });
+        </script>           
+        </section>
+        
         <script src="js/classie.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/smoothscroll.js"></script>
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/midnight.jquery.min.js"></script>
         <script src="js/main.js"></script>
+
         <script>
             $(function(){
               $.stellar({
