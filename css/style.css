@@ -96,6 +96,10 @@ section {
 img {
     width: 100%;
 }
+a:focus,
+a:active {
+  outline: none;
+}
 section a {
     color: #FF7700;
     text-decoration: underline;
@@ -135,7 +139,8 @@ header .navbar-collapse ul li a {
     color: #fff;
     font-size: 14px;
 }
-header .navbar-collapse ul li a:hover {
+header .navbar-collapse ul li a:hover,
+header .navbar-collapse ul .active a {
     color: #4FC4C5;
     border-bottom: 1px solid #4FC4C5;
 }
@@ -159,7 +164,11 @@ header nav ul li {
     transition: all 0.2s;
 }
 .navbar {
-    z-index: $zIndex-8;
+    border-radius: 0;
+    padding: 10px 0 20px;
+}
+.navbar-bgr {
+  background-color: rgba(255,255,255,.6)
 }
 .nav-menu li:hover ul {
     display: block;
@@ -175,11 +184,6 @@ header nav ul li {
 .nav>li>a:hover,
 .nav>li>a:focus {
     background-color: inherit;
-}
-.nav-active {
-    box-shadow: inset 0 -3px 0 0 $color-primary;
-    -moz-box-shadow: inset 0 -3px 0 0 $color-primary;
-    -webkit-box-shadow: inset 0 -3px 0 0 $color-primary;
 }
 .navbar-right {
     float: right;
@@ -209,7 +213,7 @@ header nav ul li {
     color: #fff;
 }
 .navbar-right .dropdown {
-    margin-top: -15px;
+    margin-top: -12px;
 }
 .navbar-right .dropdown .btn {
     padding: 10px;
@@ -232,6 +236,15 @@ header nav ul li {
     color: #fff;
     background-color: #54C4C3;
     border: none;
+}
+.midnightHeader.white .navbar {
+  background-color: rgba(255,255,255,.95);
+}
+.midnightHeader.white .isa-logo {
+  background-position: bottom;
+}
+.midnightHeader.white ul li a {
+  color: #54C4C3;
 }
 
 /* ==========================================================================
@@ -334,16 +347,20 @@ input[type="text"], button, textarea {
    Sections
    ========================================================================== */
 
+#speakers,
+#about,
+#tickets,
+footer {
+  padding-top: 70px;
+}
 .speakers-grid {
     float: left;
     width: 100%;
+    position: relative;
 }
 .speaker-block {
     width: 25%;
     float: left;
-    display: table;
-    vertical-align: middle;
-    text-align: center;
     position: relative;
 }
 .speaker-block img {
@@ -379,6 +396,16 @@ input[type="text"], button, textarea {
 .speaker-info:hover {
   opacity: 1;
   text-decoration: none;
+}
+.speaker-bio {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  z-index: 100;
+  top: 319px;
 }
 .unknown {
     background: url(../images/speakers/unknown.png) no-repeat center;
