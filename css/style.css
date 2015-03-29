@@ -75,7 +75,7 @@ h2 {
 }
 h2 {
   font-size: 36px;
-  margin: 50px;
+  margin-bottom: 50px;
 }
 h3 {
   font-size: 30px;
@@ -125,6 +125,7 @@ header {
     position: fixed;
     font-weight: 400;
     text-transform: uppercase;
+    overflow: visible!important;
     z-index: 100;
 }
 header .isa-logo {
@@ -140,7 +141,7 @@ header .navbar-collapse ul li a {
     font-size: 14px;
 }
 header .navbar-collapse ul li a:hover,
-header .navbar-collapse ul .active a {
+.active a {
     color: #4FC4C5;
     border-bottom: 1px solid #4FC4C5;
 }
@@ -149,7 +150,6 @@ header nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-    z-index: $zIndex-8;
 }
 header nav ul li {
     padding: 0;
@@ -168,7 +168,7 @@ header nav ul li {
     padding: 10px 0 20px;
 }
 .navbar-bgr {
-  background-color: rgba(255,255,255,.6)
+    background-color: rgba(255,255,255,.6)
 }
 .nav-menu li:hover ul {
     display: block;
@@ -218,6 +218,7 @@ header nav ul li {
 .navbar-right .dropdown .btn {
     padding: 10px;
 }
+
 .navbar-right .dropdown .btn:active,
 .navbar-right .dropdown .btn:focus {
     background-color: #fff;
@@ -233,18 +234,22 @@ header nav ul li {
     text-align: left;
 }
 .navbar-right .dropdown .dropdown-menu li a:hover {
-    color: #fff;
+    color: #fff!important;
     background-color: #54C4C3;
     border: none;
 }
-.midnightHeader.white .navbar {
-  background-color: rgba(255,255,255,.95);
+.navbar-white {
+    background-color: rgba(255,255,255,.95);
 }
-.midnightHeader.white .isa-logo {
-  background-position: bottom;
+.navbar-white .isa-logo {
+    background-position: bottom;
 }
-.midnightHeader.white ul li a {
-  color: #54C4C3;
+.navbar-white .navbar-collapse ul li a {
+    color: #54C4C3;
+}
+.navbar-white .navbar-right .dropdown .btn {
+    border-color: #54C4C3;
+    color: #54C4C3;
 }
 
 /* ==========================================================================
@@ -316,6 +321,17 @@ input[type="text"], button, textarea {
         -ms-transition: all .15s ease;
          -o-transition: all .15s ease;
             transition: all .15s ease;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
 }
 .btn {
     padding: 12px 10px;

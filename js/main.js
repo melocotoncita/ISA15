@@ -1,32 +1,41 @@
-// Start midnight
-$(document).ready(function(){
-  $('header').midnight();
+
+$(document).ready(function() {  
+    var addBgrTop = $('.navbar').offset().top;  
+      
+    var headerNav = function(){  
+    var scrollTop = $(window).scrollTop();  
+           
+    if (scrollTop > addBgrTop) {   
+        $('.navbar').addClass('navbar-white');  
+    } else {  
+        $('.navbar').removeClass('navbar-white');   
+    }  
+};  
+
+headerNav();  
+    $(window).scroll(function() {  
+        headerNav();  
+    });  
 });
 
-// Active Screen
+// Smooth scroll
 
-$(function() {
+$("a").on('click', function(e) {
 
-  // Do our DOM lookups beforehand
-  var nav_container = $(".navbar");
-  var nav = $(".navbar-nav");
-  
-  
-  var sections = $("section");
-  var navigation_links = $(".navbar-nav li a");
-  
-  sections.waypoint({
-    handler: function(event, direction) {
-    
-      var active_section;
-      active_section = $(this);
-      if (direction === "up") active_section = active_section.prev();
+   // prevent default anchor click behavior
+   e.preventDefault();
 
-      var active_link = $('.navbar-nav li a a[href="#' + active_section.attr("id") + '"]');
-      navigation_links.removeClass("active");
-      active_link.addClass("active");
+   // store hash
+   var hash = this.hash;
 
-    },
-    offset: '25%'
-  })
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 300, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
 });
