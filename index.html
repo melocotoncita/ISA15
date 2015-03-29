@@ -28,9 +28,9 @@
             
         </script>
     </head>
-    <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+    <body data-spy="scroll" data-offset="0">
         <!-- Menu -->
-        <header>
+        <header class="animated">
             <nav class="navbar">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -38,17 +38,16 @@
                         <i class="fa fa-reorder"></i>
                         </button>
                         <div class="logo">
-                            <a class="isa-logo" href="#"></a>
+                            <a class="isa-logo" href="#home"></a>
                         </div>
                     </div>
                     <div class="collapse navbar-collapse" id="mobile-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">Home</a></li>
                             <li><a href="#speakers">Speakers</a></li>
-                            <li><a href="#isa">ISA</a></li>
+                            <li><a href="#about">Acerca de</a></li>
                             <li><a href="#tickets">Tickets</a></li>
                             <li><a href="#sponsors">Sponsors</a></li>
-                            <li><a href="#sponsors">ISA14</a></li>
+                            <li><a href="#isa14">ISA14</a></li>
                             <li>
                                 <div class="dropdown">
                                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
@@ -67,59 +66,139 @@
                 </div>
             </nav>
         </header>
-        <section id="home" name="home" data-midnight="white">
+        <section id="home" name="home">
             <div class="hero">
                 <div class="hero-logo"></div>
                 <div class="copy">
                     <p><i class="fa fa-calendar"></i> 18 al 21 / Noviembre 2015 <i class="fa fa-location-arrow"></i> Córdoba, Argentina</p>
-                    <a href="#" class="btn btn-default">Early birds disponibles!</a>
+                    <a href="#tickets" class="btn btn-default smoothScroll">Early birds disponibles!</a>
                 </div>
-                <a href="#event" class="smoothScroll"><span class="fa fa-angle-down"></span></a>
+                <a href="#speakers" class="smoothScroll"><span class="fa fa-angle-down"></span></a>
             </div>
         </section>
-        <section id="speakers" name="speakers" data-midnight="white">
+        <section id="speakers" name="speakers">
             <h2>Speakers</h2>
-            <div class="speakers-grid">
-                <div class="speaker-block">
-                    <a href="#"><img src="images/speakers/russ-unger.jpg" alt=""></a>
-                </div>
-                <div class="speaker-block">
-                    <a href="#"><img src="images/speakers/stephen-anderson.jpg" alt=""></a>
-                </div>
-                <div class="speaker-block color-green">
-                    <div class="unknown"></div>
-                </div>
-                <div class="speaker-block color-violet">
-                    <div class="unknown"></div>
-                </div>
-                <div class="speaker-block color-orange">
-                    <div class="unknown"></div>
-                </div>
-                <div class="speaker-block color-green-2">
-                    <div class="unknown"></div>
-                </div>
-                <div class="speaker-block color-yellow">
-                    <div class="unknown"></div>
-                </div>
-                <div class="speaker-block color-pink">
-                    <div class="unknown"></div>
+            <ul id="speaker-grid" class="speaker-grid">
+                <li>
+                    <a href="" data-title="Russ Unger" data-description="Russ Unger, es Director de Experiencia de Usuario trabaja desde Chicago donde lidera equipos y proyectos sobre diseño e investigación. Es co-autor de los libros: A Project Guide to UX Design, Designing the Conversation y Speaker Camp para New Riders (Voices That Matter). Russ se encuentra trabajando en un nuevo libro sobre técnicas de guerrilla para diseño y métodos de investigación. 
+                    Russ es co-fundador de ChicagoCamps una iniciativa que alberga eventos sobre la temática tecnológica de alta calidad y bajo costo. También es miembro de la junta asesora para el Departamento de Diseño web y desarrollo de la Harrington College of Design. Russ tiene dos hijas que dibujan mejor que él y están comenzando a pasarlo en sus limitadas capacidades para programar.">
+                        <img src="images/speakers/russ-unger.jpg" alt="Russ Unger"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="" data-title="Stephen P. Anderson" data-description="Stephen P. Anderson es un orador reconocido a nivel internacional y consultor   con base en Dallas, Texas. Creó Mental Notes card deck, una herramienta ampliamente utilizada por equipos de producto con el fin de aplicar psicología al Diseño de Interacción. Stephen también es el autor del libro que responde a la pregunta: ¿Cómo hacemos que la gente de enamore de nuestras aplicaciones?.
+                    Entre medio de sus disertaciones y trabajo, Stephen dicta talleres y entrenamientos para ayudar a las organizaciones a manejar equipos creativos, crear visualizaciones interactivas y diseñar mejores experiencias de usuario.">
+                        <img src="images/speakers/stephen-anderson.jpg" alt="Stephen Anderson"/>
+                    </a>
+                </li>
+                <li>
+                    <div class="speaker-soon" data-toggle="tooltip" data-placement="top" title="Proximamente!">
+                        <div class="unknown"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="speaker-soon" data-toggle="tooltip" data-placement="top" title="Proximamente!">
+                        <div class="unknown"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="speaker-soon" data-toggle="tooltip" data-placement="top" title="Proximamente!">
+                        <div class="unknown"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="speaker-soon" data-toggle="tooltip" data-placement="top" title="Proximamente!">
+                        <div class="unknown"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="speaker-soon" data-toggle="tooltip" data-placement="top" title="Proximamente!">
+                        <div class="unknown"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="speaker-soon" data-toggle="tooltip" data-placement="top" title="Proximamente!">
+                        <div class="unknown"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="about">
+            <div class="content-block">
+                <h4>7° Conferencia de Diseño de Interacción en Sudamérica</h4>
+                <p>Interaction South America (ISA) es la conferencia de Diseño de interacción, Experiencia de usuario, Tecnología e Innovación más importante de América del Sur. Los eventos ISA tienen una reputación implacable de ser conferencias apasionantes y del más alto nivel, además de la mejor manera de conectarse con la comunidad. Serán 4 días intensos de presentaciones, debate y eventos sociales para todas las personas involucradas con el Diseño de Interacción en Sudamérica.</p>
+            </div>
+        </section>
+        <section id="tickets">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Early birds disponibles!</h2>
+
+                    </div>
                 </div>
             </div>
         </section>
+        <section id="sponsors">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Participan</h2>
+                        <a href="http://www.shiftseven.co" target="_blank"><img src="images/sponsors/shiftseven.jpg" alt=""></a>
+                        <a href="http://www.rosenfeldmedia.com/" target="_blank"><img src="images/sponsors/rosenfeld.jpg" alt=""></a>
+                        <a href="http://convistaalmar.com.ar/" target="_blank"><img src="images/sponsors/convistaalmar.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="newsletter">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Seguí las novedades de ISA15</h3>
+                        <form action="" class="form-inline">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Suscribir</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <a href="http://www.facebook.com/shiftsevenco" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.twitter.com/shiftsevenco" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:hi@shiftseven.co" target="_blank">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/smoothscroll.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/midnight.jquery.min.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/headroom.js"></script>
+        <script src="js/grid.js"></script>
         <script src="js/main.js"></script>
-        <script>
-            $(function(){
-              $.stellar({
-                horizontalScrolling: false,
-                verticalOffset: 40
-              });
-            });
-        </script>
     </body>
 </html>

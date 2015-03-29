@@ -1,73 +1,59 @@
-$(document).ready(function(){
-			// Menu settings
-			$('#menuToggle, .menu-close').on('click', function(){
-				$('.midnightInner #menuToggle').toggleClass('menuToggle-active');
-				$('body').toggleClass('body-push-toleft');
-				$('#theMenu').toggleClass('menu-open');
-			});
+//Background on header
+
+$(document).ready(function() {  
+    var addBgrTop = $('.navbar').offset().top;  
+      
+    var headerNav = function(){  
+    var scrollTop = $(window).scrollTop();  
+           
+    if (scrollTop > addBgrTop) {   
+        $('.navbar').addClass('navbar-white');  
+    } else {  
+        $('.navbar').removeClass('navbar-white');   
+    }  
+};  
+
+headerNav();  
+    $(window).scroll(function() {  
+        headerNav();  
+    });  
 });
 
-// Google Maps custom
+// Smooth scroll
 
-google.maps.event.addDomListener(window, 'load', init);
-    var map;
-    function init() {
-        var mapOptions = {
-            center: new google.maps.LatLng(-31.422712,-64.187574),
-            zoom: 16,
-            zoomControl: true,
-            zoomControlOptions: {
-                style: google.maps.ZoomControlStyle.DEFAULT,
-            },
-            disableDoubleClickZoom: true,
-            mapTypeControl: true,
-            mapTypeControlOptions: {
-                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-            },
-            scaleControl: true,
-            scrollwheel: false,
-            panControl: true,
-            streetViewControl: true,
-            draggable : true,
-            overviewMapControl: true,
-            overviewMapControlOptions: {
-                opened: false,
-            },
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}],
-        }
-        var mapElement = document.getElementById('map-container');
-        var map = new google.maps.Map(mapElement, mapOptions);
-        var locations = [
-['Casa de Buenos Aires', 'Av Hipólito Yrigoyen 175', 'undefined', 'undefined', 'undefined', -31.4226676, -64.1879071, 'https://mapbuildr.com/assets/img/markers/default.png']
-        ];
-        for (i = 0; i < locations.length; i++) {
-      if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
-      if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
-      if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
-           if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
-           if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
-            marker = new google.maps.Marker({
-                icon: markericon,
-                position: new google.maps.LatLng(locations[i][5], locations[i][6]),
-                map: map,
-                title: locations[i][0],
-                desc: description,
-                tel: telephone,
-                email: email,
-                web: web
-            });
-link = '';            bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
-     }
- function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
-        var infowindow = new google.maps.InfoWindow();
-        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:300px;margin:0 auto;text-align:center;'><h5 style='color:#FF7700;'>"+title+"</h5><p>"+desc+"<p></div>";
-        infowindow.setContent(html);
-        infowindow.open(map, marker);
-   }
-};
+$("header a").on('click', function(e) {
 
-// Start midnight
-$(document).ready(function(){
-  $('.header-nav').midnight();
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 500, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
 });
+
+// Custom JS
+
+$(function(){
+  $.stellar({
+    horizontalScrolling: false,
+    verticalOffset: 40
+  });
+  $('[data-toggle="tooltip"]').tooltip()
+});
+$(function() {
+    Grid.init();
+});
+
+var myElement = document.querySelector("header");
+var headroom  = new Headroom(myElement);
+headroom.init();
