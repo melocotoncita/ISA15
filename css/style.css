@@ -632,11 +632,11 @@ footer ul li a:after {
     outline: none;
     display: block;
     position: relative;
-    max-width: 220px;
+    max-width: 300px;
 }
 .speaker-grid li > .speaker-soon {
     background-color: #515E66;
-    width: 220px;
+    width: 300px;
     height: 300px;
 }
 .unknown {

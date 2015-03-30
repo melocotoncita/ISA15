@@ -40,9 +40,8 @@ $(document).ready(function() {
 		});
 	});
 	
-	//var headroom  = new Headroom(document.querySelector("header"));
-	//headroom.init();
-	  
+	var headroom  = new Headroom(document.querySelector("header"));
+	headroom.init();
 	$.stellar({
 		horizontalScrolling: false,
 		verticalOffset: 40
