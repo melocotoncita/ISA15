@@ -297,6 +297,10 @@ header nav ul li {
 }
 .navbar-white {
     background-color: rgba(255,255,255,.95);
+		-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .navbar-white .isa-logo {
     background-position: bottom;
@@ -628,11 +632,11 @@ footer ul li a:after {
     outline: none;
     display: block;
     position: relative;
-    max-width: 300px;
+    max-width: 220px;
 }
 .speaker-grid li > .speaker-soon {
     background-color: #515E66;
-    width: 300px;
+    width: 220px;
     height: 300px;
 }
 .unknown {
