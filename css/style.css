@@ -316,14 +316,13 @@ header nav ul li {
     color: #515E66;
 }
 .headroom--pinned {
-    display: block;
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
 }
 .headroom--unpinned {
-    display: none;
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
+    top: -100px;
 }
 
 /* ==========================================================================
