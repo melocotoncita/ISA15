@@ -382,7 +382,7 @@ var Grid = (function() {
           href : $itemEl.attr( 'href' ),
           largesrc : $itemEl.data( 'largesrc' ),
           title : $itemEl.data( 'title' ),
-          description : $itemEl.data( 'description' )
+          description : $itemEl.parent().find("span").html()
         };
 
       this.$title.html( eldata.title );
