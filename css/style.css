@@ -181,7 +181,7 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     overflow: visible!important;
-    z-index: 100;
+    z-index: 300;
 }
 header .isa-logo {
     background: url(../images/isa-logo.png) no-repeat top;
@@ -316,14 +316,13 @@ header nav ul li {
     color: #515E66;
 }
 .headroom--pinned {
-    display: block;
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
 }
 .headroom--unpinned {
-    display: none;
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
+    top: -100px;
 }
 
 /* ==========================================================================
@@ -563,8 +562,9 @@ ul.social-networks li a:hover {
 }
 footer {
     background-color: #151515;
-    min-height: initial;
-    height: 60%;
+    min-height: inherit;
+    padding: 100px 0;
+    position: relative;
     overflow: hidden;
 }
 footer ul {
@@ -572,6 +572,7 @@ footer ul {
     width: 100%;
     text-align: center;
     padding: 0;
+    margin-bottom: 20px;
 }
 footer ul li {
     list-style: none;
@@ -580,27 +581,33 @@ footer ul li {
     font-size: 28px;
 }
 footer ul li a {
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-bottom-color: #54C4C3;
-    position: relative;
-    top: -50px;
+    width: 75px;
+    height: 75px;
+    line-height: 75px!important;
+    display: block;
+    color: #fff;
+    border: 3px solid #fff;
     -webkit-transition: all .1s ease;
        -moz-transition: all .1s ease;
         -ms-transition: all .1s ease;
          -o-transition: all .1s ease;
             transition: all .1s ease;
 }
-footer ul li a:after {
-    content: '';
+footer ul li a:hover,
+footer ul li a:active,
+footer ul li a:focus {
+    text-decoration: none;
+    color: #54C4C3;
+    border-color: #54C4C3;
+}
+.copyright {
+    width: 100%;
     position: absolute;
-    left: -50px;
-    top: 50px;
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-top-color: #54C4C3;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    bottom: 10px;
 }
 
 
@@ -615,7 +622,25 @@ footer ul li a:after {
     text-align: center;
     width: 100%;
 }
-
+.speaker-block div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    padding: 30px 20px;
+    background: rgba(84, 196, 195, .9);
+    opacity: 0;
+    z-index: 100;
+    -webkit-transition: all .1s ease;
+       -moz-transition: all .1s ease;
+        -ms-transition: all .1s ease;
+         -o-transition: all .1s ease;
+            transition: all .1s ease;
+}
+.speaker-block div:hover {
+    opacity: 1;
+}
 .speaker-grid li {
     display: inline-block;
     margin: 10px 5px 0 5px;
