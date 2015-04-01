@@ -223,6 +223,12 @@ header nav ul li {
     border-radius: 0;
     padding: 10px 0 20px;
 }
+
+#buscabasisa14 {
+	font-size:10px !important;
+}
+
+
 .navbar-bgr {
     background-color: rgba(255,255,255,.6)
 }
@@ -614,6 +620,13 @@ footer ul li a:focus {
 /* ==========================================================================
    Speaker grid
    ========================================================================== */
+
+#speakers h3 {
+	font-family: 'Dosis', sans-serif;
+	font-size:20px;
+	color:#515E66;
+	text-align:center;
+	}
 
 .speaker-grid {
     list-style: none;
