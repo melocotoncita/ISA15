@@ -435,6 +435,7 @@ input[type="text"], button, textarea {
     border: 1px solid #fff;
     color: #fff;
 }
+
 .btn-default:hover {
     border: 1px solid #fff;
     background: #fff;
@@ -449,6 +450,18 @@ input[type="text"], button, textarea {
     border: 1px solid #fff;
     background: #fff;
     color: #000;
+}
+
+
+.btn-primary-invert {
+    background: #54C4C3;
+    border: 1px solid #54C4C3;
+    color: #fff;
+}
+.btn-primary-invert:hover {
+    border: 1px solid #fff;
+    background: #515E66;
+    color: #fff;
 }
 
 /* ==========================================================================
