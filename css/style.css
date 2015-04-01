@@ -546,6 +546,7 @@ footer .container-fluid {
 
 /* Sponsors */
 
+
 #sponsors {
     text-align: center;
     min-height: inherit;
@@ -555,8 +556,16 @@ footer .container-fluid {
     margin: 20px;
     display: inline-block;
 }
+
 #sponsors img {
     width: 200px;
+}
+
+#sponsors h3 {
+	font-family: 'Dosis', sans-serif;
+	color:#515E66;
+	font-size:18px;
+	text-transform:uppercase;
 }
 
 /* Footer */
