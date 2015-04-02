@@ -552,6 +552,11 @@ footer .container-fluid {
 	margin-bottom:30px;
 }
 
+#tickets a:link
+{
+	color: #e1e1e1;
+}
+
 /* Newsletter */
 
 #newsletter,
