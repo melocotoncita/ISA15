@@ -196,6 +196,7 @@ header .navbar-collapse ul li a {
     color: #fff;
     font-size: 14px;
     border: 1px solid transparent;
+    border-radius: 3px;
 }
 header .navbar-collapse ul li a:hover,
 .active a {
@@ -435,22 +436,26 @@ input[type="text"], button, textarea {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
+    border-radius: 3px;
 }
 
 .btn-default:hover {
     border: 1px solid #fff;
     background: #fff;
     color: #000;
+    border-radius: 3px;
 }
 .btn-primary {
     background: #54C4C3;
     border: 1px solid #54C4C3;
     color: #fff;
+    border-radius: 3px;
 }
 .btn-primary:hover {
     border: 1px solid #fff;
     background: #fff;
     color: #000;
+    border-radius: 3px;
 }
 
 
@@ -458,11 +463,13 @@ input[type="text"], button, textarea {
     background: #54C4C3;
     border: 1px solid #54C4C3;
     color: #fff;
+    border-radius: 3px;
 }
 .btn-primary-invert:hover {
     border: 1px solid #fff;
     background: #515E66;
     color: #fff;
+    border-radius: 3px;
 }
 
 /* ==========================================================================
