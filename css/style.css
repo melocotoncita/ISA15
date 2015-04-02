@@ -892,6 +892,16 @@ footer .copyright a
     color: #999;
 }
 
+
+/*CALL FOR PROPOSAL / LLAMADO A PROPUESTAS*/
+#llamado h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #515E66;
+    text-align: center;
+}
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
