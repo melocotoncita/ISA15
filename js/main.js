@@ -51,7 +51,28 @@ $(document).ready(function() {
 	$('[data-toggle="tooltip"]').tooltip()
 	  
 	Grid.init();
-  
+	
+	$("#tickets .comprando").on('click', function(e) 
+	{
+		var id = $(this).attr("id");
+		
+		if (!$(this).hasClass("selected"))
+		{			
+			$("#tickets .comprando").removeClass("selected");
+			$(this).addClass("selected");
+			
+			$(".buy_form").slideUp("fast");
+			
+			$("#" + id + "_form").slideDown("slow");
+		}
+		else
+		{
+			$("#tickets .comprando").removeClass("selected");
+			$(".buy_form").slideUp("fast");
+		}
+		
+		return false;
+	});
 });
 
 

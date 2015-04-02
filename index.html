@@ -4,31 +4,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Interaction South America 2015 · 18, 19, 20 y 21 de Noviembre · Córdoba, Argentina</title>
-        <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
-        <!-- Bootstrap core CSS -->
+        
+		
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <!-- Custom styles for this template -->
+        
+		
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="css/style.css" rel="stylesheet">
         <script src="https://maps.googleapis.com/maps/api/js?&sensor=false"></script>
-        <!-- Just for debugging purposes. Don't actually copy this line! -->
-        <!--[if lt IE 9]><script src="../../js/ie8-responsive-file-warning.js"></script><![endif]-->
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
+        
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        
+		<!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            
-            ga('create', 'UA-55692271-1', 'auto');
-            ga('send', 'pageview');
-            
-        </script>
+        
     </head>
     <body data-spy="scroll" data-offset="0">
         <!-- Menu -->
@@ -174,13 +165,13 @@
 						
 				<div class="row">
 					<div class="col-md-4 col-md-offset-2">
-						<button class="btn btn-default comprando">
+						<button class="btn btn-default comprando" id="buy_local">
 								<h3>Asistentes de <br/>Argentina</h3>
 								<small>Precios en expresados en Pesos argentinos</small>
 						</button>
 					</div>
 					<div class="col-md-4">
-						<button class="btn btn-default comprando">
+						<button class="btn btn-default comprando" id="buy_int">
 								<h3>Asistentes del<br/>exterior</h3>
 								<small>Precios en expresados en Dólares</small>
 						</button>
@@ -190,17 +181,17 @@
 				<div class="spacer_tickets"></div>
 				
 				<div class="row">				
-					<div class="col-md-10 col-md-offset-1 hide">
+					<div class="col-md-10 col-md-offset-1 buy_form" id="buy_local_form" style="display:none;">
 						<div  style="width:100%; text-align:left;padding-left:20px;background-color:#dadada;  border-radius: 5px;" >
 							<iframe src='https://eventioz.com.ar/e/interaction-south-america-2015/registrations/new?iframe=' frameborder="0" height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="false" style=" ">
 							</iframe>
 						</div>
 					</div>
 					
-					<div class="col-md-10 col-md-offset-1 hide">
+					<div class="col-md-10 col-md-offset-1 buy_form" id="buy_int_form" style="display:none;">
 						
 						<div style="width:100%; text-align:left;" >
-							<iframe  src="https://eventbrite.com/tickets-external?eid=16415029796&ref=etckt" frameborder="0" height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true">
+							<iframe  src="https://eventbrite.com/tickets-external?eid=16415029796&ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true">
 							</iframe>
 						</div>
 					</div>
@@ -212,7 +203,7 @@
 					<div class="col-md-10 col-md-offset-1">
 					
 						<h4>Descuentos para estudiantes</h4>
-						<p>El precio promocional para </p>
+						<p>Para acceder al descuento de estudiante enviá un correo a <a href="mailto:estudiantes@ixdacba.com.ar?Subject=Descuento para ISA15">estudiantes@ixdacba.com.ar</a> con tus datos personales y una foto de una credencial vigente de tu centro educativo o un certificado de alumno regular. Con ello te enviaremos un código especial para que compres tu entrada a un precio diferenciado. Te recordamos que las entradas adquiridas con el descuento para estudiante no son transferibles.</p>
 
 					</div>
 					
@@ -246,9 +237,17 @@
 				<div class="row">
                     <div class="col-md-12">
                         <h3>¿Querés ser patrocinador?</h3>
-                        <a href="patrocinio.pdf" target="_blank" class="btn btn-primary-invert smoothScroll">Conocé nuestras opciones de patrocinio acá</a>
+                        <a href="patrocinio.pdf" target="_blank" class="btn btn-primary-invert smoothScroll">Conocé nuestra propuesta para patrocinio acá</a>
                     </div>
                 </div>
+				
+				<div class="row">
+					<div class="ixda_global">
+						<p>Interaction South America es una conferencia de IxDA</p>
+						<a href="http://www.ixda.org" target="_blank"><img src="http://www.ixda.org/sites/all/themes/ixda_theme/images/logo_ixda2.png" alt=""></a>
+					</div>
+				</div>
+				
             </div>
         </section>
         <section id="newsletter">
@@ -293,14 +292,8 @@
                             </li>
                         </ul>
                     </div>
-					
-					<div class="row">
-						<div class="col-md-6">
-							<h3>Interaction South America es una conferencia de IxDA</h3>
-							<a href="http://www.ixda.org" target="_blank"><img src="http://www.ixda.org/sites/all/themes/ixda_theme/images/logo_ixda2.png" alt=""></a>
-						</div>
-					</div>
-					
+				</div>
+				<div class="row">	
                     <div class="copyright">
                         <p>
 							&copy;2015 Interaction South America, una conferencia de <a href="http://www.ixda.org" target="_blank">IxDA</a><br/>
@@ -319,5 +312,18 @@
         <script src="js/headroom.js"></script>
         <script src="js/grid.js"></script>
         <script src="js/main.js"></script>
+		
+		<!-- Analytics code -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-99553-24', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
     </body>
 </html>
