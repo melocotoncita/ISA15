@@ -516,9 +516,27 @@ footer .container-fluid {
 
 #tickets {
     background-color: #54C4C3;
+
 }
 #tickets h2 {
     color: #fff;
+	margin-bottom: 0;
+}
+
+#tickets h4 {
+    color: #000000;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+#tickets button.comprando
+{
+	width:100%;
+}
+
+#tickets .spacer_tickets
+{
+	height:60px;
 }
 
 /* Newsletter */
