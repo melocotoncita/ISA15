@@ -377,11 +377,28 @@ header nav ul li {
 }
 .copy i {
     margin-right: 5px;
+    padding-left: 5px;
 }
 .copy p {
   color: #fff;
   margin: 25px 0 25px;
 }
+
+.copy p a {
+  color: #fff;
+  margin: 25px 0 25px;
+  text-decoration: none;
+
+}
+
+.copy p a:hover {
+  color:#54C4C3;
+  margin: 25px 0 25px;
+  text-decoration: none;
+
+}
+
+
 .copy i:last-child {
     margin-left: 20px;
 }
