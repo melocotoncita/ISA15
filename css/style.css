@@ -607,10 +607,20 @@ footer .container-fluid {
 
 #team .content-block {
     text-align:center;
-	margin-top: 30px;
-    margin-bottom: 30px;
+	margin-top: 40px;
+    margin-bottom: 80px;
     padding: 20px;
+}
 
+#team h3 {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
+
+#team p {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    margin-top: 20px;
 }
 
 /* Newsletter */
@@ -630,6 +640,7 @@ footer .container-fluid {
     min-height: 40%;
     text-align: center;
     color: #ECF0F4;
+	background: url("../images/stripe.svg") repeat-x top;
 }
 #newsletter h3 {
     margin: 0 0 30px;
@@ -649,6 +660,7 @@ footer .container-fluid {
     text-align: center;
     min-height: inherit;
     padding-bottom: 60px;
+    background: url("../images/stripe.svg") repeat-x top;
 }
 #sponsors a {
     margin: 20px;
@@ -701,7 +713,7 @@ ul.social-networks li a:hover {
 footer {
     background-color: #151515;
     min-height: inherit;
-    padding: 100px 0;
+    padding: 50px 0;
     position: relative;
     overflow: hidden;
 }
@@ -747,6 +759,7 @@ footer .copyright {
     font-weight: 500;
     text-align: center;
     bottom: 10px;
+    top:150px;
 }
 
 footer .copyright a
@@ -754,16 +767,7 @@ footer .copyright a
 	color: #d1d1d1;
 }
 
-#sponsors .ixda_global
-{
-    width: 100%;
-    color: #54C4C3;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    margin: 50px 0 0 0;
-	
-}
+
 
 /* ==========================================================================
    Speaker grid
