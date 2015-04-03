@@ -102,7 +102,7 @@ section a {
      -moz-transition: all .2s ease;
     -ms-transition: all .2s ease;
      -o-transition: all .2s ease;
-      transition: all .2s ease;
+    transition: all .2s ease;
 }
 section a:hover {
     color: #000;
@@ -674,6 +674,21 @@ footer .container-fluid {
 	width:100%;
 }
 
+#newsletter #newsletter_fail p,
+#newsletter #newsletter_ok p
+{
+	border-radius: 3px;
+	padding: 7px;
+	color: black;
+	
+	-webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+     -o-transition: all .5s ease;
+    transition: all .5s ease;
+	
+}
+
 /* Sponsors */
 
 
@@ -700,7 +715,7 @@ footer .container-fluid {
 
 #sponsors .btn
 {
-	width: 100%;
+	/* width: 100%; */
 	margin: 0;
 }
 
@@ -752,12 +767,12 @@ footer ul li {
     font-size: 28px;
 }
 footer ul li a {
-    width: 75px;
-    height: 75px;
-    line-height: 75px!important;
-    display: block;
-    color: #fff;
-    border: 3px solid #fff;
+    width: 55px;
+	height: 55px;
+	line-height: 50px!important;
+	display: block;
+	color: #e1e1e1;
+	border: 1px solid #e1e1e1;
     -webkit-transition: all .1s ease;
        -moz-transition: all .1s ease;
         -ms-transition: all .1s ease;
@@ -775,7 +790,7 @@ footer ul li a:focus {
 footer .copyright {
     width: 100%;
     position: absolute;
-    color: #fff;
+    color: #e1e1e1;
     font-size: 12px;
     font-weight: 500;
     text-align: center;
@@ -785,7 +800,7 @@ footer .copyright {
 
 footer .copyright a
 {
-	color: #d1d1d1;
+	color: #54C4C3;
 }
 
 
