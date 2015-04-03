@@ -554,7 +554,7 @@ footer .container-fluid {
 #tickets button.selected
 {	
 	background-color:white;
-	text:black;
+	color:black;
 }
 
 #tickets .spacer_tickets
