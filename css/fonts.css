@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('../fonts/GothamBlack-webfont.eot');
+    src: url('../fonts/GothamBlack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GothamBlack-webfont.woff2') format('woff2'),
+         url('../fonts/GothamBlack-webfont.woff') format('woff'),
+         url('../fonts/GothamBlack-webfont.ttf') format('truetype'),
+         url('../fonts/GothamBlack-webfont.svg#gothamblackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Gotham Regular';
+    src: url('../fonts/Gotham-Book-webfont.eot');
+    src: url('../fonts/Gotham-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Book-webfont.woff2') format('woff2'),
+         url('../fonts/Gotham-Book-webfont.woff') format('woff'),
+         url('../fonts/Gotham-Book-webfont.ttf') format('truetype'),
+         url('../fonts/Gotham-Book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('../fonts/Gotham-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Gotham-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham-Medium.svg#bdc473fae2f64b1c45b8886bcff81bae') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  normal;
+}

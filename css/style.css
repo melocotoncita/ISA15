@@ -428,14 +428,10 @@ input[type="text"], button, textarea {
   -webkit-box-shadow: none;
 }
 .btn {
+    padding: 9px 10px;
     border-radius: 3px;
     text-decoration: none;
 }
-
-#home .btn {
-    padding: 9px 10px;
-}
-
 .btn-default {
     background: transparent;
     border: 1px solid #fff;
@@ -619,13 +615,6 @@ footer .container-fluid {
 	font-size:24px;
 }
 
-#cfp
-{
-	text-align: center;
-    min-height: inherit;
-    padding-bottom: 60px;
-}
-
 /* Footer */
 
 ul.social-networks {
@@ -730,7 +719,6 @@ footer .copyright a
     margin: 0 auto;
     text-align: center;
     width: 100%;
-	max-width:1400px;
 }
 .speaker-block div {
     width: 100%;
@@ -751,8 +739,6 @@ footer .copyright a
 .speaker-block div:hover {
     opacity: 1;
 }
-
-
 .speaker-grid li {
     display: inline-block;
     margin: 10px 5px 0 5px;
@@ -958,10 +944,8 @@ and (max-width : 1023px) {
     }
     .sponsor-grid {
         line-height: 100px;
-		max-width:1000px;
     }
 }
-
 
 /* IPHONE ----------- */
 
