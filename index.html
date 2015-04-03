@@ -288,11 +288,15 @@
                     <div class="col-md-12">
                         <h3>Seguí las novedades de #ISA15</h3>
                         <form action="" class="form-inline">
-							<div id="newsletter_fail" class="col-md-8 col-md-offset-2 col-sm-12">
+							<div id="newsletter_fail" class="col-md-8 col-md-offset-2 col-sm-12 hide">
                                 <p class="bg-danger">Para recibir las novedades es mejor poner una dirección válida, la que escribiste no parece estar bien.</p>
                             </div>
 							
-							<div id="newsletter_ok" class="col-md-8 col-md-offset-2 col-sm-12">
+							<div id="newsletter_repeat" class="col-md-8 col-md-offset-2 col-sm-12 hide">
+                                <p class="bg-warning">Tu dirección de correo ya está suscripta a nuestro newsletter.</p>
+                            </div>
+							
+							<div id="newsletter_ok" class="col-md-8 col-md-offset-2 col-sm-12 hide">
                                 <p class="bg-success">Gracias, te mantendremos al tanto de las novedades!</p>
                             </div>
 							
@@ -300,7 +304,7 @@
                                 <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
                             </div>
 							<div class="form-group col-md-2 col-sm-12">
-								<button type="submit" class="btn btn-primary">Suscribir</button>
+								<button type="button" class="btn btn-primary">Suscribir</button>
 							</div>
                         </form>
 					</div>
