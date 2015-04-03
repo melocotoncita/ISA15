@@ -319,6 +319,7 @@ header nav ul li {
 .navbar-white .navbar-right .dropdown .btn {
     border-color: #54C4C3;
     color: #54C4C3;
+    border-radius: 3px;
 }
 .navbar-white .navbar-header .navbar-toggle i {
     color: #515E66;
