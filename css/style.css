@@ -685,14 +685,29 @@ footer .container-fluid {
     padding: 0;
 }
 
+#newsletter input
+{
+		background-color:white;
+}
+
 #newsletter button
 {
 	padding: 9px 30px;
 	width:100%;
 }
 
+#newsletter button[disabled]
+{
+	background-color:#d1d1d1;
+}
+
+#newsletter #newsletter_fail p {background-color:#ED4354;}
+#newsletter #newsletter_ok p {background-color:#5FB78D;}
+#newsletter #newsletter_repeat p {background-color:#5890B2;}
+
 #newsletter #newsletter_fail p,
-#newsletter #newsletter_ok p
+#newsletter #newsletter_ok p,
+#newsletter #newsletter_repeat p
 {
 	border-radius: 3px;
 	padding: 7px;
