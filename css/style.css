@@ -582,11 +582,20 @@ footer .container-fluid {
 
 #team .content-block {
     text-align:center;
-	margin-top: 30px;
-    margin-bottom: 30px;
+	margin-top: 40px;
+    margin-bottom: 80px;
     padding: 20px;
+}
 
+#team h3 {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
 
+#team p {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    margin-top: 20px;
 }
 
 /* Newsletter */
