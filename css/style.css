@@ -523,6 +523,8 @@ footer .container-fluid {
     background: url(../images/isa-about.jpg) no-repeat;
     background-size: cover;
     width: 100%;
+ 
+
 }
 #about h4 {
     color: #54C4C3;
@@ -533,6 +535,9 @@ footer .container-fluid {
     padding: 20px;
     background: #fff;
 	margin-bottom:150px;
+       border:1px solid #fff;
+    border-radius: 3px;
+
 }
 
 #about .organized
