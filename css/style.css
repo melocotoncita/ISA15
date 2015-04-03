@@ -406,7 +406,7 @@ header nav ul li {
 }
 .form-inline .form-group {
     vertical-align: 0;
-    width: 500px;
+    /* width: 500px; */
 }
 input[type="text"], button, textarea {
     border-radius: none;
@@ -572,18 +572,43 @@ footer .container-fluid {
 	color: #e1e1e1;
 }
 
+#tickets .container-eventbrite
+{
+	width:100%;
+	text-align:left;
+}
+
+#tickets .container-eventioz
+{
+	width:100%; 
+	text-align:left;
+	padding-left:20px;
+	background-color:#dadada;
+	border-radius: 5px;
+}
+
+#tickets .container-eventbrite iframe
+{
+	height:300px;
+}
+
+#tickets .container-eventioz iframe
+{
+	height:500px;
+}
+
 /* Team */
 #team {
     background: url(../images/team.png) no-repeat;
     background-size: cover;
-    
+	min-height:0;
 
 }
 
 #team .content-block {
     text-align:center;
-	margin-top: -30px;
-    margin-bottom: -30px;
+	margin-top: 30px;
+    margin-bottom: 30px;
     padding: 20px;
 
 }
@@ -614,6 +639,7 @@ footer .container-fluid {
 #newsletter button
 {
 	padding: 9px 30px;
+	width:100%;
 }
 
 /* Sponsors */
@@ -637,6 +663,12 @@ footer .container-fluid {
 	font-family: 'Dosis', sans-serif;
 	color:#515E66;
 	font-size:24px;
+}
+
+#sponsors .btn
+{
+	width: 100%;
+	margin: 0;
 }
 
 #cfp
@@ -957,10 +989,10 @@ and (max-width : 1023px) {
         background-position: bottom;
     }
     .navbar {
-        background-color: rgba(255,255,255, .95);
+        /* background-color: rgba(255,255,255, .95); */
     }
     .navbar-right li {
-        float: none;
+        /*float: none; */
     }
     .navbar-right {
         float: none;
@@ -980,6 +1012,21 @@ and (max-width : 1023px) {
         line-height: 100px;
 		max-width:1000px;
     }
+	
+	#tickets .comprando
+	{
+		margin-bottom:20px;
+	}
+	
+	#tickets .container-eventbrite iframe
+	{
+		height:350px;
+	}
+
+	#tickets .container-eventioz iframe
+	{
+		height:850px;
+	}
 }
 
 

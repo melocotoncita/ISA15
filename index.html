@@ -159,13 +159,13 @@
                 </div>
 						
 				<div class="row">
-					<div class="col-md-4 col-md-offset-2">
+					<div class="col-md-4 col-md-offset-2 col-sm-6">
 						<button class="btn btn-default comprando" id="buy_local">
 								<h3>Asistentes de <br/>Argentina</h3>
 								<small>Precios en expresados en Pesos argentinos</small>
 						</button>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<button class="btn btn-default comprando" id="buy_int">
 								<h3>Asistentes del<br/>exterior</h3>
 								<small>Precios en expresados en Dólares</small>
@@ -177,16 +177,16 @@
 				
 				<div class="row">				
 					<div class="col-md-10 col-md-offset-1 buy_form" id="buy_local_form" style="display:none;">
-						<div  style="width:100%; text-align:left;padding-left:20px;background-color:#dadada;  border-radius: 5px;" >
-							<iframe src='https://eventioz.com.ar/e/interaction-south-america-2015/registrations/new?iframe=' frameborder="0" height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="false" style=" ">
+						<div  class="container-eventioz" >
+							<iframe src='https://eventioz.com.ar/e/interaction-south-america-2015/registrations/new?iframe=' frameborder="0" height="auto" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="false" style=" ">
 							</iframe>
 						</div>
 					</div>
 					
 					<div class="col-md-10 col-md-offset-1 buy_form" id="buy_int_form" style="display:none;">
 						
-						<div style="width:100%; text-align:left;" >
-							<iframe  src="https://eventbrite.com/tickets-external?eid=16415029796&ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true">
+						<div class="container-eventbrite" >
+							<iframe  src="https://eventbrite.com/tickets-external?eid=16415029796&ref=etckt" frameborder="0" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true">
 							</iframe>
 						</div>
 					</div>
@@ -277,8 +277,11 @@
 				<div class="row">
                     <div class="col-md-12">
                         <h3>¿Querés ser patrocinador?</h3>
-                        <a href="patrocinio.pdf" target="_blank" class="btn btn-primary-invert smoothScroll">Conocé nuestra propuesta para patrocinio acá</a>
+                        
                     </div>
+					<div class="form-group col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1">
+						<a href="patrocinio.pdf" target="_blank" class="btn btn-primary-invert smoothScroll">Conocé nuestra propuesta para patrocinio acá</a>
+					</div>
                 </div>
 				
             </div>
@@ -288,13 +291,17 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>Seguí las novedades de ISA15</h3>
+					</div>
+                    <div class="col-md-12">
                         <form action="" class="form-inline">
-                            <div class="form-group">
+                            <div class="form-group col-md-6 col-md-offset-2 col-sm-12">
                                 <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
                             </div>
-                            <button type="submit" class="btn btn-primary">Suscribir</button>
+							<div class="form-group col-md-2 col-sm-12">
+								<button type="submit" class="btn btn-primary">Suscribir</button>
+							</div>
                         </form>
-                    </div>
+					</div>
                 </div>
             </div>
         </section>
