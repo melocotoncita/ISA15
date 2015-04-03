@@ -509,17 +509,19 @@ footer .container-fluid {
 #about h4 {
     color: #54C4C3;
 }
-.content-block {
-    width: 400px;
-    height: 340px;
-    top: 50%;
-    left: 50%;
-    margin-top: -170px;
-    margin-left: -200px;
-    position: absolute;
+#about .content-block {
+    margin-top: 150px;
     padding: 20px;
     background: #fff;
+	margin-bottom:150px;
 }
+
+#about .organized
+{
+  position: relative;
+  text-align:center;
+}
+
 #about h2 {
     text-align: left;
 }
@@ -566,6 +568,13 @@ footer .container-fluid {
 #tickets a:link
 {
 	color: #e1e1e1;
+}
+
+/* Team */
+#team {
+    background: url(../images/team.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 /* Newsletter */
