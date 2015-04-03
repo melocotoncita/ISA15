@@ -633,6 +633,7 @@ footer .container-fluid {
     text-align: center;
     min-height: inherit;
     padding-bottom: 60px;
+    background: url("../images/stripe.svg") repeat-x top;
 }
 #sponsors a {
     margin: 20px;
