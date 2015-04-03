@@ -521,10 +521,12 @@ footer .container-fluid {
 /* Acerca */
 
 #about {
-    background: url(../images/isa-about.jpg) no-repeat;
+    background: url(../images/isa-about.jpg)  no-repeat fixed center;
     background-size: cover;
     width: 100%;
- 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 }
 #about h4 {
@@ -644,10 +646,12 @@ footer .container-fluid {
 
 /* Team */
 #team {
-    background: url(../images/team.png) no-repeat;
+    background: url(../images/team.png)  no-repeat fixed center;
     background-size: cover;
 	min-height:0;
-
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #team .content-block {
