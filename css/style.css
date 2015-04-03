@@ -483,7 +483,8 @@ input[type="text"], button, textarea {
 #speakers,
 #about,
 #tickets,
-#sponsors {
+#sponsors,
+#team {
   padding-top: 50px;
 }
 #about,
@@ -508,6 +509,7 @@ footer .container-fluid {
 }
 #about h4 {
     color: #54C4C3;
+	text-align: center;
 }
 #about .content-block {
     margin-top: 150px;
@@ -572,7 +574,7 @@ footer .container-fluid {
 
 /* Team */
 #team {
-    background: url(../images/team.jpg) no-repeat;
+    background: url(../images/team.png) no-repeat;
     background-size: cover;
     width: 100%;
 }
