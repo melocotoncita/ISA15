@@ -1098,10 +1098,10 @@ and (max-width : 1023px) {
         background-position: bottom;
     }
     .navbar {
-        /* background-color: rgba(255,255,255, .95); */
+        background-color: rgba(255,255,255, .95);
     }
     .navbar-right li {
-        /*float: none; */
+        float: none;
     }
     .navbar-right {
         float: none;
