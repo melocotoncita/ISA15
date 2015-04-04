@@ -553,10 +553,6 @@ footer .container-fluid {
     text-align: left;
 }
 
-#about p
-	{
-		text-align: justify;
-	}
 
 /* Tickets */
 
@@ -1190,6 +1186,14 @@ and (max-width : 767px) {
 	  display: inline-block;
 	  margin: 0px 3px;
 	  font-size: 28px;
+	}
+	
+	#newsletter {padding:18px 0px;}
+	
+	#sponsors .btn {
+	  width: 100%;
+	  margin: 0;
+	  padding: 8px;
 	}
 }
 
