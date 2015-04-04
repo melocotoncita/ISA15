@@ -1067,6 +1067,22 @@ footer .copyright a
     color: #999;
 }
 
+#cfp_details h4.panel-title a
+{
+	text-decoration:none;
+}
+
+#cfp_details h4.panel-title a:hover
+{
+	color:blue;
+}
+
+#cfp_details .panel-body
+{
+	text-align:left;
+}
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
