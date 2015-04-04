@@ -1147,3 +1147,32 @@ and (max-width : 1023px) {
 and (max-width : 767px) {
 
 }
+
+/* Speaker Grid ----------- */
+
+@media only screen
+and (min-width : 1082px) {
+
+	.speaker-grid {
+		padding: 20px 100px;
+	}
+
+}
+
+@media only screen
+and (min-width : 1282px) {
+
+	.speaker-grid {
+		padding: 20px 200px;
+	}
+
+}
+
+@media only screen
+and (min-width : 1296px) {
+
+	.speaker-grid {
+		padding: 20px 0px;
+	}
+
+}
