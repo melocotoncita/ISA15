@@ -768,6 +768,13 @@ footer .container-fluid {
     padding-bottom: 60px;
 }
 
+#cfp_details
+{
+	text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* Footer */
 
 ul.social-networks {
