@@ -838,13 +838,14 @@ footer ul li a:focus {
 
 footer .copyright {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     color: #e1e1e1;
     font-size: 12px;
     font-weight: 500;
     text-align: center;
-    bottom: 10px;
-    top:150px;
+    /* bottom: 10px;
+    top:150px; */
+	padding: 0px 20px;
 }
 
 footer .copyright a
@@ -852,6 +853,7 @@ footer .copyright a
 	color: #54C4C3;
 }
 
+footer p { line-height:1.3em;}
 
 
 /* ==========================================================================
@@ -861,6 +863,7 @@ footer .copyright a
 #speakers h3 {
 	font-family: 'Dosis', sans-serif;
 	font-size:20px;
+	padding:0px 30px;
 	color:#515E66;
 	text-align:center;
 	}
@@ -1145,10 +1148,16 @@ and (max-width : 1023px) {
 
 @media only screen
 and (max-width : 767px) {
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 3px;
+  font-size: 28px;
+}
 
 }
 
-/* Speaker Grid ----------- */
+/* Speaker Grid Responsive Fix----------- */
 
 @media only screen
 and (min-width : 1082px) {
