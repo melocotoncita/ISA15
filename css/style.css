@@ -561,9 +561,15 @@ footer .container-fluid {
 /* Tickets */
 
 #tickets {
-    background-color: #ED4354;
-	min-height: 0vh;
-	padding-bottom:60px;
+    background-color: #ED4354; 
+border-style: solid;
+border-width: 0px 11px;
+-moz-border-image: url(../images/circulito.svg) 0 12 repeat;
+-webkit-border-image: url(../images/circulito.svg) 0 12 repeat;
+-o-border-image: url(../images/circulito.svg) 0 12 repeat;
+border-image: url(../images/circulito.svg) 0 12 repeat;
+    min-height: 0vh;
+    padding-bottom:60px;
 }
 #tickets h2 {
     color: #fff;
@@ -766,11 +772,18 @@ footer .container-fluid {
 	margin: 0;
 }
 
+/* LLAMADO a propuestas */
+
 #cfp
 {
 	text-align: center;
     min-height: inherit;
     padding-bottom: 60px;
+}
+
+#cfp p {
+  
+  margin-bottom: 20px;
 }
 
 #cfp_details
@@ -779,6 +792,8 @@ footer .container-fluid {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+
 
 /* Footer */
 
