@@ -910,6 +910,26 @@ footer .copyright a
     width: 200px;
     height: 200px;
 }
+
+#speakers .color-green {
+    background-color: #54C4C3;
+}
+#speakers .color-green-2 {
+    background-color: #4FD186;
+}
+#speakers .color-violet {
+    background-color: #6A6F99;
+}
+#speakers .color-orange {
+    background-color: #ED9F51;
+}
+#speakers .color-yellow {
+    background-color: #EDDD5F
+}
+#speakers .color-pink {
+    background-color: #C170C2;
+}
+
 .unknown {
     background: url(../images/speakers/unknown.png) no-repeat center;
     background-size: cover;
