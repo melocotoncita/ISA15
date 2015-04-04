@@ -570,6 +570,9 @@ footer .container-fluid {
 #tickets h2 {
     color: #fff;
 	margin-bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+
 }
 
 #tickets h4 {
