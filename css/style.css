@@ -1145,7 +1145,14 @@ and (max-width : 1023px) {
 
 @media only screen
 and (max-width : 767px) {
-
+	#speakers h3 {
+	  padding: 0 20px;
+	}
+	
+	#about p
+	{
+		text-align: justify;
+	}
 }
 
 /* Speaker Grid ----------- */
