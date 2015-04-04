@@ -2,9 +2,9 @@
 
 $(document).ready(function() {
 	
-    var addBgrTop = $('#speakers').offset().top -1;  
-      
-    var headerNav = function()
+	var addBgrTop = $('#speakers').offset().top -1;  
+		  
+	var headerNav = function()
 	{  
 		var scrollTop = $(window).scrollTop();  
 			   
@@ -13,13 +13,21 @@ $(document).ready(function() {
 		} else {  
 			$('.navbar').removeClass('navbar-white');   
 		}  
-	};  
+	};
 
-	headerNav();  
-	
-    $(window).scroll(function() {  
-        headerNav();  
-    });
+	// el menu es autocoloreable solo en modo escritorio, en modo mobile lo mostramos siempre blanco
+	if (parseInt($(window).width()) > 1075)
+	{
+		 headerNav();  
+		
+		$(window).scroll(function() {  
+			headerNav();  
+		});
+	}
+	else
+	{
+		$('.navbar').addClass('navbar-white');
+	}
 	
 	$("header a").on('click', function(e) 
 	{
