@@ -50,6 +50,14 @@ $(document).ready(function() {
 		
 	});
 
+	// chevrones para propuestas
+	$('.collapse').on('show.bs.collapse', function(){
+	  var i = $(this).parent().find('i')
+	  i.toggleClass('fa-chevron-down fa-chevron-up');
+	}).on('hide.bs.collapse', function(){
+	  var i = $(this).parent().find('i')
+	  i.toggleClass('fa-chevron-up fa-chevron-down');
+	});
 });
 
 

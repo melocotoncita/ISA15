@@ -782,14 +782,6 @@ footer .container-fluid {
   margin-bottom: 20px;
 }
 
-#cfp_details
-{
-	text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
 
 /* Footer */
 
@@ -1086,14 +1078,28 @@ footer p { line-height:1.3em;}
     color: #999;
 }
 
+#cfp_details
+{
+	text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 #cfp_details h4.panel-title a
 {
 	text-decoration:none;
 }
 
+#cfp_details .panel-heading i
+{
+  float: right;
+  bottom: 10px;
+  position: relative;
+}
+
 #cfp_details h4.panel-title a:hover
 {
-	color:blue;
+	color:#54C4C3;
 }
 
 #cfp_details .panel-body
