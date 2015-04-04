@@ -86,6 +86,8 @@ $(document).ready(function() {
 	// newsletter
 	$("#newsletter button").on('click', function(e) 
 	{
+		e.preventDefault();
+		
 		$('#newsletter_fail').addClass('hide');
 		$('#newsletter_ok').addClass('hide');
 		$('#newsletter_repeat').addClass('hide');
@@ -125,7 +127,7 @@ $(document).ready(function() {
 			});
 		}
 		return false;
-		event.preventDefault();
+		
 	});
 
 });
