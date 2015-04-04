@@ -553,6 +553,11 @@ footer .container-fluid {
     text-align: left;
 }
 
+#about p
+	{
+		text-align: justify;
+	}
+
 /* Tickets */
 
 #tickets {
@@ -1148,13 +1153,13 @@ and (max-width : 1023px) {
 
 @media only screen
 and (max-width : 767px) {
-footer ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0px 3px;
-  font-size: 28px;
-}
 
+	footer ul li {
+	  list-style: none;
+	  display: inline-block;
+	  margin: 0px 3px;
+	  font-size: 28px;
+	}
 }
 
 /* Speaker Grid Responsive Fix----------- */
