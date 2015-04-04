@@ -15,6 +15,9 @@ $(document).ready(function() {
 		}  
 	};
 
+	if (parseInt($(window).width()) < 768)
+	$('.speaker-soon').parent().remove();
+	
 	// el menu es autocoloreable solo en modo escritorio, en modo mobile lo mostramos siempre blanco
 	if (parseInt($(window).width()) > 1075)
 	{
