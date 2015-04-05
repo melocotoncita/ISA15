@@ -1366,6 +1366,8 @@ and (max-width : 767px) {
 		white-space: normal;
 		width: 230px;
 		text-align: center;}
+		
+	.grid-details {overflow:auto;}
 }
 
 /* Speaker Grid Responsive Fix----------- */
