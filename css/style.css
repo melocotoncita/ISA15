@@ -1280,7 +1280,11 @@ and (max-width : 767px) {
 	
 	#tickets .container-eventbrite {margin-top: -40px;}
 	
-	.btn-primary-invert {padding:10px;}
+	.btn-primary-invert {
+		padding: 10px;
+		white-space: normal;
+		width: 230px;
+		text-align: center;}
 }
 
 /* Speaker Grid Responsive Fix----------- */
