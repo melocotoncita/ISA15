@@ -22,9 +22,11 @@ $(document).ready(function() {
 			$('.navbar').removeClass('navbar-white');   
 		}  
 	};
-
+	
 	if (parseInt($(window).width()) < 768)
-	$('.speaker-soon').parent().remove();
+	{
+		$('.speaker-soon:not(:first)').parent().remove();
+	}
 	
 	// el menu es autocoloreable solo en modo escritorio, en modo mobile lo mostramos siempre blanco
 	if (parseInt($(window).width()) > 1075)
