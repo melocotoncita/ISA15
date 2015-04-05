@@ -850,7 +850,7 @@ footer .container-fluid {
 	margin: 0;
 }
 
-/* LLAMADO a propuestas */
+/* LLAMADO a propuestas en index */
 
 #cfp
 {
@@ -868,16 +868,29 @@ footer .container-fluid {
     line-height: 1.5em;
 }
 
+/*CFP página interna*/
+
+#invita-objetivos-evaluacion {
+    height: 100vh;
+    
+}
+
+
+#invitamos-presentar {
+    height: 100vh;
+}
+
 #cfp_details, #about_details
 {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 60px;
+
 }
 
 #cfp_details p {
      color:#515E66;
-     font-size: 18px;
+     font-size: 16px;
      line-height: 1.5em;
      font-weight: normal;
 }
