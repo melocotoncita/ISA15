@@ -799,6 +799,12 @@ footer .container-fluid {
 	width:100%;
 }
 
+#newsletter button:active, #newsletter button:focus {
+	border-color: #54C4C3;
+	background-color: #54C4C3;
+	color:#fff;
+}
+
 #newsletter button[disabled]
 {
 	background-color:#d1d1d1;
