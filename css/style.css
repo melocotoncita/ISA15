@@ -67,7 +67,7 @@ h2 {
 }
 h2 {
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 25,12px;
   font-weight: 600;
 }
 h3 {
@@ -572,56 +572,78 @@ footer .container-fluid {
     min-height: 0vh;
     padding-bottom:60px;
 }
+
 #tickets h2 {
     color: #fff;
-	margin-bottom: 0;
+	margin-bottom: 25px;
     font-size: 50px;
     font-weight: bold;
-
 }
 
-#tickets h4 {
+#tickets h3 {
     font-family: "Dosis", sans-serif;
     color: #fff;
 	text-align:center;
-	margin-bottom:30px;
+	margin-bottom:60px;
 }
 
-#tickets h5 {
-    font-family: "Dosis", sans-serif;
-    font-size: 20px;
+#tickets h4 {
     color: #fff;
     text-align:center;
-    margin-bottom:10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
 }
+
+#tickets button h4 {
+    color: #ED4354;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+#tickets button small {
+    color: #ED4354;
+    display: block;
+    margin-bottom: 20px;
+} 
 
 #tickets p {
     font-family: "Dosis", sans-serif;
     color: #fff;
+    font-size: 18px;
     text-align:center;
 
 }
 
+
 #tickets button.comprando
 {
 	width:100%;
+    background-color: #fff;
 }
 
 #tickets button:hover{
-    color:#ED4354;
-
+    color:#fff;
+    background-color:#ED4354;
+    border:1px #fff solid;
 
 }
 
 #tickets button.selected
 {	
-	background-color:white;
-	color:#ED4354;
+	background-color:#ED4354;
+	color:#fff;
+    border:1px #fff solid;
+
 }
 
 #tickets .spacer_tickets
 {
-	height:60px;
+	height:30px;
 }
 
 #tickets .buy_form
