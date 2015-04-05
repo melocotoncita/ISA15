@@ -808,6 +808,8 @@ footer .container-fluid {
 #newsletter button[disabled]
 {
 	background-color:#d1d1d1;
+	border-color:#d1d1d1;
+	color:#969696;
 }
 
 #newsletter #newsletter_fail p {background-color:#ED4354;}

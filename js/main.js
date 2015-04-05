@@ -23,6 +23,7 @@ $(document).ready(function() {
 		}  
 	};
 	
+	// ocultamos los signitos de pregunta en modo celular
 	if (parseInt($(window).width()) < 768)
 	{
 		$('.speaker-soon:not(:first)').parent().remove();
