@@ -302,7 +302,7 @@ header nav ul li {
     background-position: bottom
 }
 .navbar-white li.disabled {
-    color: #54C4C3
+    color: #515E66;
 }
 li.disabled {
     cursor: not-allowed;
