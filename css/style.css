@@ -316,6 +316,11 @@ header nav ul li {
 .navbar-white .isa-logo {
     background-position: bottom;
 }
+
+.navbar-white .disabled > a {
+  color: #999 !important;
+}
+
 .navbar-white .navbar-collapse ul li a {
     color: #54C4C3;
     font-weight: 500;
