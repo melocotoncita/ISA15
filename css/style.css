@@ -283,7 +283,7 @@ header nav ul li {
     color: #fff;
 }
 .navbar-right .dropdown {
-    margin-top: -12px;
+    margin-top: -3px;
 }
 .navbar-right .dropdown .btn {
     padding: 10px;
@@ -466,14 +466,13 @@ input[type="text"], button, textarea {
     text-decoration: none;
 }
 
-#home .btn {
+#home a.btn {
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 600;
 }
 
-
-.btn-default {
+#home a.btn-default {
     background: #fff;
     border: 1px solid #fff;
     color: #54C4C3;
@@ -481,12 +480,34 @@ input[type="text"], button, textarea {
     text-transform: uppercase;
 }
 
-.btn-default:hover {
+#home a.btn-default:hover {
     border: 1px solid #fff;
     background: transparent;
     color: #fff;
     border-radius: 3px;
 }
+
+.navbar button.btn{
+    padding: 9px 10px;
+	font-size: 14px;
+    font-weight: normal;
+}
+
+.navbar button.btn-default {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.navbar button.btn-default:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+    border-radius: 3px;
+}
+
 .btn-primary {
     background: #54C4C3;
     border: 1px solid #54C4C3;
