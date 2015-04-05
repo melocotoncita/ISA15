@@ -496,12 +496,14 @@ input[type="text"], button, textarea {
 
 .btn-primary-invert {
     background: #54C4C3;
-    border: 1px solid #54C4C3;
     color: #fff;
+    padding: 10px 40px;
+    font-weight: 600;
     border-radius: 3px;
+    text-transform: uppercase;
 }
 .btn-primary-invert:hover {
-    border: 1px solid #fff;
+    
     background: #515E66;
     color: #fff;
     border-radius: 3px;
@@ -577,7 +579,7 @@ footer .container-fluid {
     -webkit-border-image: url(../images/circulito.svg) 0 12 repeat;
     -o-border-image: url(../images/circulito.svg) 0 12 repeat;
     border-image: url(../images/circulito.svg) 0 12 repeat;
-    min-height: 0vh;
+    height: 100vh;
     padding-bottom:60px;
 }
 
@@ -815,6 +817,7 @@ footer .container-fluid {
 	text-align: center;
     min-height: inherit;
     padding-bottom: 60px;
+    height: 100vh;
 }
 
 #cfp h4 {
