@@ -11,6 +11,11 @@ $(document).ready(function() {
 		}
 	});
 	
+	$("#menu-lang a").on('click',function(e) 
+	{
+		window.location = $(this).attr("href");
+	});
+	
 	// newsletter
 	$("#newsletter button").on('click', function(e) 
 	{

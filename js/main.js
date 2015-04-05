@@ -10,6 +10,11 @@ $(document).ready(function() {
 		}
 	});
 	
+	$("#menu-lang a").on('click',function(e) 
+	{
+		window.location = $(this).attr("href");
+	});
+	
 	var addBgrTop = $('#speakers').offset().top -1;  
 		  
 	var headerNav = function()
