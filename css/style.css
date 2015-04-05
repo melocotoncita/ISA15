@@ -673,10 +673,11 @@ footer .container-fluid {
 #tickets button{
   background-color: inherit;
   color: #fff;
+  border-color:#fff;
 }
 
 #tickets button:hover{
-    color:#ED4354 !important;
+    color:#ED4354;
     background-color:#fff;
     border:1px #fff solid;
 
