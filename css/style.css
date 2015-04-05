@@ -513,6 +513,8 @@ input[type="text"], button, textarea {
     border: 1px solid #54C4C3;
     color: #fff;
     border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .btn-primary:hover {
     border: 1px solid #fff;
@@ -807,12 +809,12 @@ footer .container-fluid {
 #newsletter #newsletter_repeat p {background-color:#5890B2;}
 
 #newsletter #newsletter_fail p,
-#newsletter #newsletter_ok p,
+
 #newsletter #newsletter_repeat p
 {
 	border-radius: 3px;
 	padding: 7px;
-	color: black;
+	color: #fff;
 	
 	-webkit-transition: all .5s ease;
      -moz-transition: all .5s ease;
@@ -821,6 +823,7 @@ footer .container-fluid {
     transition: all .5s ease;
 	
 }
+
 
 /* Sponsors */
 
