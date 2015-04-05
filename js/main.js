@@ -108,7 +108,7 @@ $(document).ready(function() {
 		
 		var mail_regexp = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 		var email = $("#newsletter input").val();
-		var extra_data = {EmailAddress:email, CustomField41:"Spanish"};//English, Portuguese
+		var extra_data = {EmailAddress:email, CustomField41:$("#newsletter button").data("lang")};//Spanish, English, Portuguese
 
 		
 		var validar = true;
