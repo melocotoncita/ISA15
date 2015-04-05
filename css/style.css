@@ -62,12 +62,13 @@ h5 {
 h1,
 h2 {
   color: #54C4C3;
-  padding: 10px 15px;
+  
   text-align: center;
 }
 h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 h3 {
   font-size: 30px;
@@ -197,6 +198,8 @@ header .navbar-collapse ul li a {
     font-size: 14px;
     border: 1px solid transparent;
     border-radius: 3px;
+    font-weight: 600;
+
 }
 header .navbar-collapse ul li a:hover,
 .active a {
@@ -315,6 +318,7 @@ header nav ul li {
 }
 .navbar-white .navbar-collapse ul li a {
     color: #54C4C3;
+    font-weight: 500;
 }
 .navbar-white .navbar-right .dropdown .btn {
     border-color: #54C4C3;
@@ -459,6 +463,7 @@ input[type="text"], button, textarea {
     border: 1px solid #fff;
     color: #fff;
     border-radius: 3px;
+    text-transform: uppercase;
 }
 
 .btn-default:hover {
@@ -780,11 +785,11 @@ footer .container-fluid {
     padding-bottom: 60px;
 }
 
-#cfp p {
-  
-  margin-bottom: 20px;
+#cfp h4 {
+    color:#515E66;
+    text-align:center;
+    margin-bottom: 20px;
 }
-
 
 /* Footer */
 
@@ -871,13 +876,10 @@ footer p { line-height:1.3em;}
    Speaker grid
    ========================================================================== */
 
-#speakers h3 {
-	font-family: 'Dosis', sans-serif;
-	font-size:20px;
-	padding:0px 30px;
+#speakers h4 {
 	color:#515E66;
 	text-align:center;
-	}
+}
 
 .speaker-grid {
     list-style: none;
