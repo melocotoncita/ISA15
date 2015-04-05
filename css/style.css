@@ -247,7 +247,6 @@ header nav ul li {
     list-style: none;
     font-weight: 400;
     color: #54C4C3;
-    s
 }
 .por .navbar-right li {
     padding: 10px 3px
@@ -263,9 +262,6 @@ header nav ul li {
 .navbar-toggle i {
     font-size: 24px;
     color: #fff
-}
-.navbar-right .dropdown {
-    margin-top: -3px
 }
 .navbar-right .dropdown .btn {
     padding: 10px;
@@ -315,7 +311,7 @@ li.disabled {
 .navbar-white .navbar-collapse ul li {
     font-weight: 500
 }
-.navbar-white .navbar-right .dropdown .btn {
+.navbar-white .navbar-right  a.dropdown-toggle  {
     border-color: #54C4C3;
     color: #54C4C3;
     border-radius: 3px
@@ -331,6 +327,11 @@ li.disabled {
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
     top: -100px
+}
+#buscabasisa14{
+	font-size: 0.8em;
+	padding: 9px 10px;
+	margin-top: 1px;
 }
 /* ==========================================================================
    Hero
@@ -463,14 +464,14 @@ textarea {
     font-size: 14px;
     font-weight: normal
 }
-.navbar button.btn-default {
+.navbar a.dropdown-toggle {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
     border-radius: 3px;
     text-transform: uppercase
 }
-.navbar button.btn-default:hover {
+.navbar a.dropdown-toggle:hover , .navbar a.dropdown-toggle:focus{
     border: 1px solid #fff;
     background: #fff;
     color: #000;
@@ -1178,7 +1179,8 @@ footer p {
         border-radius: 3px
     }
     .navbar-right .dropdown .dropdown-menu li a {
-        text-align: center
+        text-align: center;
+		background-color:white;
     }
     .navbar-header .navbar-toggle i {
         color: #515E66
