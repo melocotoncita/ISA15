@@ -1162,7 +1162,10 @@ footer p {
         background-position: bottom
     }
     .navbar {
-        background-color: rgba(255, 255, 255, .95)
+        background-color: rgba(255, 255, 255, .95);
+    }
+    .navbar-collapse.in {
+        height: 100vh;
     }
     .navbar-right li {
         float: none
@@ -1198,6 +1201,10 @@ footer p {
     }
     #tickets .container-eventioz {
         padding-left: 15%
+    }
+    .navbar a.dropdown-toggle {
+        color: #54C4C3;
+        border-color: #54C4C3;
     }
 }
 /* IPHONE ----------- */
