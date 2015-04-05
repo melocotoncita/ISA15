@@ -1270,7 +1270,7 @@ footer p { line-height:1.3em;}
 
 /* Desktops and laptops ----------- */
 @media only screen
-{
+and (min-width : 1234px) {
 	#tickets .container-eventioz {padding-left: 24%;}
 }
 
