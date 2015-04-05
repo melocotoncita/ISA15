@@ -868,6 +868,50 @@ footer .container-fluid {
     line-height: 1.5em;
 }
 
+#cfp_details, #about_details
+{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+#cfp_details p {
+     color:#515E66;
+     font-size: 18px;
+     line-height: 1.5em;
+     font-weight: normal;
+}
+
+#cfp_details p b{
+     color:#515E66;
+     font-size: 18px;
+     line-height: 1.5em;
+     font-weight: 600;
+}
+
+#cfp_details h4.panel-title a
+{
+    text-decoration:none;
+}
+
+#cfp_details .panel-heading i
+{
+  float: right;
+  bottom: 10px;
+  position: relative;
+}
+
+#cfp_details h4.panel-title a:hover
+{
+    color:#54C4C3;
+}
+
+#cfp_details .panel-body
+{
+    text-align:left;
+}
+
+
 /* Footer */
 
 ul.social-networks {
@@ -1190,34 +1234,6 @@ footer p { line-height:1.3em;}
 
 
 
-#cfp_details, #about_details
-{
-	text-align: center;
-    padding-top: 70px;
-    padding-bottom: 60px;
-}
-
-#cfp_details h4.panel-title a
-{
-	text-decoration:none;
-}
-
-#cfp_details .panel-heading i
-{
-  float: right;
-  bottom: 10px;
-  position: relative;
-}
-
-#cfp_details h4.panel-title a:hover
-{
-	color:#54C4C3;
-}
-
-#cfp_details .panel-body
-{
-	text-align:left;
-}
 
 
 
