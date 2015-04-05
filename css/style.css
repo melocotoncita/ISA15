@@ -579,7 +579,6 @@ footer .container-fluid {
     -webkit-border-image: url(../images/circulito.svg) 0 12 repeat;
     -o-border-image: url(../images/circulito.svg) 0 12 repeat;
     border-image: url(../images/circulito.svg) 0 12 repeat;
-    height: 100vh;
     padding-bottom:60px;
 }
 
@@ -629,6 +628,11 @@ footer .container-fluid {
 #tickets button.comprando
 {
 	width:100%;
+}
+
+#tickets button{
+  background-color: inherit;
+  color: #fff;
 }
 
 #tickets button:hover{
