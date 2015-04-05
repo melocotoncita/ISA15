@@ -1035,7 +1035,7 @@ footer p { line-height:1.3em;}
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #fff;
+    border-bottom-color: #e1e1e1;  /* color del piquito */
     border-width: 15px;
     left: 50%;
     margin: -25px 0 0 -15px;
@@ -1055,6 +1055,7 @@ footer p { line-height:1.3em;}
 .grid-expander-inner {
     padding: 50px 30px;
     height: 100%;
+	background-color: #e1e1e1; /* color del bloque de detalle del speaker -- deberia ser el mismo del piquito */
 }
 
 .grid-close {
@@ -1110,7 +1111,7 @@ footer p { line-height:1.3em;}
     max-width: 100%;
 }
 
-.grid-details h3 {
+.grid-details h3 { /* bloque de detalle del speaker */
     margin-bottom: 10px;
 }
 
@@ -1121,7 +1122,7 @@ footer p { line-height:1.3em;}
     color: #999;
 }
 
-.grid-details a {
+.grid-details a { /* links dentro del bloque de detalle del speaker */
     font-weight: 700;
     font-size: 16px;
     color: #333;
