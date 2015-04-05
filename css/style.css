@@ -918,6 +918,7 @@ footer p { line-height:1.3em;}
 #speakers h4 {
 	color:#515E66;
 	text-align:center;
+	padding: 0 25px;
 }
 
 #speakers h3 {
@@ -1275,12 +1276,14 @@ and (max-width : 767px) {
 	#tickets .container-eventioz{padding:0px;}
 	
 	#tickets .container-eventbrite {margin-top: -40px;}
+	
+	.btn-primary-invert {padding:10px;}
 }
 
 /* Speaker Grid Responsive Fix----------- */
 
 @media only screen
-and (min-width : 1082px) {
+and (min-width : 1079px) {
 
 	.speaker-grid {
 		padding: 20px 100px;
@@ -1289,7 +1292,7 @@ and (min-width : 1082px) {
 }
 
 @media only screen
-and (min-width : 1282px) {
+and (min-width : 1279px) {
 
 	.speaker-grid {
 		padding: 20px 200px;
