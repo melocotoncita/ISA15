@@ -10,7 +10,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	$("#menu-lang a").on('click',function(e) 
+	$("#menu-lang a, #buscabasisa14").on('click',function(e) 
 	{
 		window.location = $(this).attr("href");
 	});
