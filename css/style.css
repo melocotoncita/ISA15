@@ -263,10 +263,13 @@ header nav ul li {
     float: left;
     padding: 10px;
     height: 60px;
-    line-height: 60px;
+    line-height: 41px;
     margin-top: 5px;
     list-style: none;
+    font-weight: 700;
+	color:dimgrey;
 }
+
 .navbar-right li ul {
     visibility: visible;
     opacity: 1;
@@ -323,6 +326,10 @@ header nav ul li {
 
 .navbar-white .navbar-collapse ul li a {
     color: #54C4C3;
+    font-weight: 500;
+}
+.navbar-white .navbar-collapse ul li {
+    color: #dimgrey;
     font-weight: 500;
 }
 .navbar-white .navbar-right .dropdown .btn {
