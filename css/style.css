@@ -1270,9 +1270,8 @@ footer p { line-height:1.3em;}
 
 /* Desktops and laptops ----------- */
 @media only screen
-
-#tickets .container-eventioz {padding-left: 24%;}
-
+{
+	#tickets .container-eventioz {padding-left: 24%;}
 }
 
 /* IPAD ----------- */
