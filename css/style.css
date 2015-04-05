@@ -329,7 +329,6 @@ li.disabled {
     top: -100px
 }
 #buscabasisa14{
-	font-size: 0.8em;
 	padding: 9px 10px;
 	margin-top: 1px;
 }
@@ -576,7 +575,6 @@ footer .container-fluid {
     font-family: "Dosis", sans-serif;
     color: #fff;
 	text-align:center;
-	margin-bottom:60px;
 }
 
 #tickets h4 {
