@@ -1152,10 +1152,10 @@ footer p { line-height:1.3em;}
 
 
 
-#cfp_details
+#cfp_details, #about_details
 {
 	text-align: center;
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 60px;
 }
 
@@ -1180,6 +1180,7 @@ footer p { line-height:1.3em;}
 {
 	text-align:left;
 }
+
 
 
 /* ==========================================================================
