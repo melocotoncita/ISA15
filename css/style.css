@@ -920,6 +920,25 @@ footer p { line-height:1.3em;}
 	text-align:center;
 }
 
+#speakers h3 {
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:left;
+}
+
+#speakers h5 {
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align:left;
+}
+
+#speaker span {
+    display: block;
+    margin-right:130px;
+}
+
 .speaker-grid {
     list-style: none;
     padding: 20px 0;
@@ -930,6 +949,7 @@ footer p { line-height:1.3em;}
 }
 .speaker-block div {
     width: 100%;
+    border-radius: 3px;
     height: 100%;
     position: absolute;
     text-align: left;
@@ -946,6 +966,7 @@ footer p { line-height:1.3em;}
 }
 .speaker-block div:hover {
     opacity: 1;
+    border-radius: 3px;
 }
 
 
@@ -966,6 +987,7 @@ footer p { line-height:1.3em;}
     display: block;
     position: relative;
     max-width: 200px;
+    border-radius: 3px;
 }
 .speaker-grid li > .speaker-soon {
     background-color: #515E66;
@@ -976,6 +998,7 @@ footer p { line-height:1.3em;}
 #speakers .color-green {
     background-color: #54C4C3;
 }
+
 #speakers .color-green-2 {
     background-color: #4FD186;
 }
@@ -1121,6 +1144,8 @@ footer p { line-height:1.3em;}
     border-color: #999;
     color: #999;
 }
+
+
 
 #cfp_details
 {
