@@ -2,7 +2,7 @@
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|PT+Sans:400,700|Dosis:200,300,400,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,Dosis:300,400,500);
 
 html,
 button,
@@ -44,9 +44,10 @@ body {
 }
 
 body {
-    font-family:'Dosis', sans-serif;
+    font-family:'PT Sans', sans-serif;
     font-size: 14px;
     color: #000;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     overflow-x:hidden;
@@ -58,20 +59,19 @@ h4,
 h5 {
   font-family: 'Dosis', sans-serif;
   padding: 0;
+  font-weight: 500;
 }
 h1,
 h2 {
   color: #54C4C3;
-  
   text-align: center;
 }
 h2 {
   font-size: 40px;
-  margin-bottom: 25,12px;
-  font-weight: 600;
 }
 h3 {
   font-size: 30px;
+  margin-bottom: 30px;
 }
 h4 {
   font-size: 24px;
@@ -79,26 +79,27 @@ h4 {
 h5 {
   font-family: 'Dosis', sans-serif;
   font-size: 14px;
-  font-weight: 700;
+}
+h4, h5 {
+    font-weight: 400;
 }
 p {
-    line-height: 23px;
+    line-height: 30px;
 }
 
 section {
   min-height: 100vh;
   position: relative;
-}
-a {
-    cursor: pointer;
+  padding-bottom: 50px;
 }
 a:focus,
 a:active {
   outline: none;
 }
 section a {
-    color: #FF7700;
-    text-decoration: underline;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
     -webkit-transition: all .2s ease;
      -moz-transition: all .2s ease;
     -ms-transition: all .2s ease;
@@ -198,7 +199,6 @@ header .navbar-collapse ul li a {
     font-size: 14px;
     border: 1px solid transparent;
     border-radius: 3px;
-    font-weight: 600;
 
 }
 header .navbar-collapse ul li a:hover,
@@ -229,11 +229,6 @@ header nav ul li {
     padding: 10px 0 20px;
 }
 
-#buscabasisa14 {
-	font-size:10px !important;
-}
-
-
 .navbar-bgr {
     background-color: rgba(255,255,255,.6)
 }
@@ -261,15 +256,17 @@ header nav ul li {
 }
 .navbar-right li {
     float: left;
-    padding: 10px;
+    padding: 10px 5px;
     height: 60px;
     line-height: 41px;
     margin-top: 5px;
     list-style: none;
-    font-weight: 700;
-	color:dimgrey;
+    font-weight: 400;
+	color: #54C4C3;s
 }
-
+.por .navbar-right li {
+    padding: 10px 3px;
+}
 .navbar-right li ul {
     visibility: visible;
     opacity: 1;
@@ -319,9 +316,12 @@ header nav ul li {
 .navbar-white .isa-logo {
     background-position: bottom;
 }
-
-.navbar-white .disabled > a {
-  color: #999 !important;
+.navbar-white li.disabled {
+    color: #54C4C3;
+}
+li.disabled {
+    cursor: not-allowed;
+    color: #fff;
 }
 
 .navbar-white .navbar-collapse ul li a {
@@ -329,7 +329,6 @@ header nav ul li {
     font-weight: 500;
 }
 .navbar-white .navbar-collapse ul li {
-    color: #dimgrey;
     font-weight: 500;
 }
 .navbar-white .navbar-right .dropdown .btn {
@@ -469,10 +468,10 @@ input[type="text"], button, textarea {
 #home a.btn {
     padding: 10px 40px;
     font-size: 20px;
-    font-weight: 600;
 }
 
 #home a.btn-default {
+    font-family: 'Dosis', Helvetica, sans-serif;
     background: #fff;
     border: 1px solid #fff;
     color: #54C4C3;
@@ -514,40 +513,26 @@ input[type="text"], button, textarea {
     color: #fff;
     border-radius: 3px;
     text-transform: uppercase;
-    font-weight: 600;
 }
-.btn-primary:hover {
-    border: 1px solid #fff;
-    background: #fff;
-    color: #000;
-    border-radius: 3px;
-}
-
-
-.btn-primary-invert {
-    background: #54C4C3;
-    color: #fff;
-    padding: 10px 40px;
-    font-weight: 600;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-.btn-primary-invert:hover {
-    
-    background: #515E66;
-    color: #fff;
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    border: 1px solid #54C4C3;
+    background: transparent;
+    color: #54C4C3;
     border-radius: 3px;
 }
 
 /* ==========================================================================
    Sections
    ========================================================================== */
-
+#home {
+    padding: 0;
+}
 #speakers,
 #about,
 #tickets,
-#sponsors,
-#team {
+#sponsors {
   padding-top: 50px;
 }
 #about,
@@ -572,6 +557,7 @@ footer .container-fluid {
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    padding: 0;
 
 }
 #about h4 {
@@ -609,35 +595,21 @@ footer .container-fluid {
 /* Tickets */
 
 #tickets {
-    background-color: #ED4354; 
-    border-style: solid;
-    border-width: 0px 11px;
-    -moz-border-image: url(../images/circulito.svg) 0 12 repeat;
-    -webkit-border-image: url(../images/circulito.svg) 0 12 repeat;
-    -o-border-image: url(../images/circulito.svg) 0 12 repeat;
-    border-image: url(../images/circulito.svg) 0 12 repeat;
-    padding-bottom:60px;
+    background-color: #54C4C3;
 }
 
 #tickets h2 {
     color: #fff;
-	margin-bottom: 25px;
-    font-size: 50px;
-    font-weight: bold;
 }
 
-#tickets h3 {
-    font-family: "Dosis", sans-serif;
+#tickets h4 {
     color: #fff;
 	text-align:center;
 	margin-bottom:60px;
 }
-
-#tickets h4 {
-    text-align:center;
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+#tickets h3 {
+    color: #fff;
+    text-align: center;
 }
 
 #tickets button h4 {
@@ -655,12 +627,10 @@ footer .container-fluid {
 } 
 
 #tickets p {
-    font-family: "Dosis", sans-serif;
     color: #fff;
     font-size: 18px;
     text-align:center;
     line-height: 1.5em;
-
 }
 
 .descuentos h4 {color:#fff;}
@@ -671,31 +641,28 @@ footer .container-fluid {
 }
 
 #tickets button{
-  background-color: #ED4354;
+  background-color: #54C4C3;
   color: #fff;
   border-color:#fff;
 }
 
-#tickets button:hover{
-    color:#ED4354;
+#tickets button:hover,
+#tickets button:focus {
+    color:#54C4C3;
     background-color:#fff;
     border:1px #fff solid;
-
 }
-
-#tickets button:focus{
-    color:#fff;
-    background-color:#ED4354;
-    border:1px #fff solid;
-
-}
-
 #tickets button.selected
 {	
 	background-color:#fff;
-	color:#ED4354;
+	color:#54C4C3;
     border:1px #fff solid;
 
+}
+#tickets button:hover h4,
+#tickets button:focus h4,
+#tickets button.selected h4 {
+    color: #54C4C3;
 }
 
 #tickets .spacer_tickets
@@ -706,11 +673,6 @@ footer .container-fluid {
 #tickets .buy_form
 {
 	margin-bottom:30px;
-}
-
-#tickets a:link
-{
-	color: #e1e1e1;
 }
 
 #tickets .container-eventbrite
@@ -746,6 +708,7 @@ footer .container-fluid {
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    padding: 0;
 }
 
 #team .content-block {
@@ -756,12 +719,12 @@ footer .container-fluid {
 }
 
 #team h3 {
-    font-family: 'Dosis', sans-serif;
     color: #fff;
 }
 
 #team p {
     font-family: 'Dosis', sans-serif;
+    font-weight: bold;
     color: #fff;
     margin-top: 20px;
 }
@@ -772,6 +735,7 @@ footer .container-fluid {
 footer {
     display: table;
     width: 100%;
+    padding: 0;
 }
 #newsletter .container-fluid,
 footer .container-fluid {
@@ -794,8 +758,7 @@ footer .container-fluid {
 		background-color:white;
 }
 
-#newsletter button
-{
+#newsletter button {
 	padding: 9px 30px;
 	width:100%;
 }
@@ -816,9 +779,7 @@ footer .container-fluid {
 #newsletter #newsletter_fail p {background-color:#ED4354;}
 #newsletter #newsletter_ok p {background-color:#5FB78D;}
 #newsletter #newsletter_repeat p {background-color:#5890B2;}
-
 #newsletter #newsletter_fail p,
-
 #newsletter #newsletter_repeat p
 {
 	border-radius: 3px;
@@ -840,7 +801,6 @@ footer .container-fluid {
 #sponsors {
     text-align: center;
     min-height: inherit;
-    padding-bottom: 60px;
     background: url("../images/stripe.svg") repeat-x top;
 }
 #sponsors a {
@@ -858,10 +818,11 @@ footer .container-fluid {
 	font-size:24px;
 }
 
-#sponsors .btn
-{
-	/* width: 100%; */
+#sponsors .btn {
 	margin: 0;
+}
+#sponsors .btn-primary {
+    padding: 10px 40px;
 }
 
 /* LLAMADO a propuestas en index */
@@ -971,7 +932,7 @@ footer ul {
     width: 100%;
     text-align: center;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 footer ul li {
     list-style: none;
@@ -980,12 +941,12 @@ footer ul li {
     font-size: 28px;
 }
 footer ul li a {
-    width: 55px;
-	height: 55px;
-	line-height: 50px!important;
+    width: 64px;
+	height: 64px;
+	line-height: 64px;
 	display: block;
-	color: #e1e1e1;
-	border: 1px solid #e1e1e1;
+	color: #fff;
+	border: 1px solid #fff;
     -webkit-transition: all .1s ease;
        -moz-transition: all .1s ease;
         -ms-transition: all .1s ease;
@@ -1035,6 +996,7 @@ footer p { line-height:1.3em;}
     font-size: 20px;
     font-weight: 700;
     text-align:left;
+    margin: 0;
 }
 
 #speakers h5 {
@@ -1105,30 +1067,11 @@ footer p { line-height:1.3em;}
     height: 200px;
 }
 
-#speakers .color-green {
-    background-color: #54C4C3;
-}
-
-#speakers .color-green-2 {
-    background-color: #4FD186;
-}
-#speakers .color-violet {
-    background-color: #6A6F99;
-}
-#speakers .color-orange {
-    background-color: #ED9F51;
-}
-#speakers .color-yellow {
-    background-color: #EDDD5F
-}
-#speakers .color-pink {
-    background-color: #C170C2;
-}
-
 .unknown {
     background: url(../images/speakers/unknown.png) no-repeat center;
     background-size: cover;
     position: absolute;
+    cursor: not-allowed;
     width: 60px;
     height: 115px;
     top: 50%;
