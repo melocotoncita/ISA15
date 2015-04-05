@@ -2,6 +2,14 @@
 
 $(document).ready(function() {
 	
+	// fix para que el menu se cierre solo en mobile
+	$(document).on('click','.navbar-collapse.in',function(e) 
+	{
+		if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+			$(this).collapse('hide');
+		}
+	});
+	
 	var addBgrTop = $('#speakers').offset().top -1;  
 		  
 	var headerNav = function()
