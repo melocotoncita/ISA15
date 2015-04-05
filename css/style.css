@@ -591,25 +591,20 @@ footer .container-fluid {
 }
 
 #tickets h4 {
-    color: #fff;
     text-align:center;
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 30px;
-
 }
 
 #tickets button h4 {
-    color: #ED4354;
     text-align:center;
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 30px;
-
 }
 
 #tickets button small {
-    color: #ED4354;
     display: block;
     margin-bottom: 20px;
 } 
@@ -622,24 +617,31 @@ footer .container-fluid {
 
 }
 
+.descuentos h4 {color:#fff;}
 
 #tickets button.comprando
 {
 	width:100%;
-    background-color: #fff;
 }
 
 #tickets button:hover{
-    color:#fff;
-    background-color:#ED4354;
+    color:#ED4354 !important;
+    background-color:#fff;
+    border:1px #fff solid;
+
+}
+
+#tickets button:focus{
+    color:#ED4354;
+    background-color:#fff;
     border:1px #fff solid;
 
 }
 
 #tickets button.selected
 {	
-	background-color:#ED4354;
-	color:#fff;
+	background-color:#fff;
+	color:#ED4354;
     border:1px #fff solid;
 
 }
