@@ -671,7 +671,7 @@ footer .container-fluid {
 }
 
 #tickets button{
-  background-color: inherit;
+  background-color: #ED4354;
   color: #fff;
   border-color:#fff;
 }
@@ -1272,6 +1272,8 @@ footer p { line-height:1.3em;}
 @media only screen
 and (max-width : 1450px) {
 
+#tickets .container-eventioz {padding-left: 24%;}
+
 }
 
 /* IPAD ----------- */
@@ -1335,6 +1337,9 @@ and (max-width : 1233px) {
 	{
 		height:850px;
 	}
+	
+	#tickets .container-eventioz {padding-left: 15%;}
+	
 }
 
 
