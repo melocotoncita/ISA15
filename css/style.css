@@ -704,8 +704,15 @@ footer .container-fluid {
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
     color: #fff;
-    margin-top: 20px
+    margin-top: 10px;
+	line-height:1px;
 }
+
+.organiza {
+	margin-bottom:17px;
+	display:inline-block;
+}
+
 /* Newsletter */
 
 #newsletter,
