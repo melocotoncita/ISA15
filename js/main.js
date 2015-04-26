@@ -92,6 +92,11 @@ $(document).ready(function() {
 			$(".buy_form").slideUp("fast");
 			
 			$("#" + id + "_form").slideDown("slow");
+			
+			$('html, body').stop().animate({
+				 'scrollTop': ($("#" + id + "_data").offset().top - 97)
+			}, 900, 'swing');
+			
 		}
 		else
 		{
