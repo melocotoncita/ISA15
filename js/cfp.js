@@ -16,6 +16,29 @@ $(document).ready(function() {
 		window.location = $(this).attr("href");
 	});
 	
+	// tipos de convocatoria
+	$("#cfp-organizadores .cfp_call").on('click', function(e) 
+	{
+		var id = $(this).attr("id");
+		
+		if (!$(this).hasClass("selected"))
+		{			
+			$("#cfp-organizadores .cfp_call").removeClass("selected");
+			$(this).addClass("selected");
+			
+			$(".cfp_data").slideUp("fast");
+			
+			$("#" + id + "_data").slideDown("slow");
+		}
+		else
+		{
+			$("#cfp-organizadores .cfp_call").removeClass("selected");
+			$(".cfp_data").slideUp("fast");
+		}
+		
+		return false;
+	});
+	
 	// newsletter
 	$("#newsletter button").on('click', function(e) 
 	{
