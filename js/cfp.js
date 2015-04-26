@@ -29,6 +29,10 @@ $(document).ready(function() {
 			$(".cfp_data").slideUp("fast");
 			
 			$("#" + id + "_data").slideDown("slow");
+			
+			$('html, body').stop().animate({
+				 'scrollTop': ($("#" + id + "_data").offset().top - 97)
+			}, 900, 'swing');
 		}
 		else
 		{

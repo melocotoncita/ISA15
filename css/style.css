@@ -824,6 +824,9 @@ footer .container-fluid {
     padding-top: 70px;
     padding-bottom: 60px
 }
+#cfp_details{
+  padding-bottom: 0px;
+}
 #cfp_details p {
     color: #515E66;
     font-size: 16px;
@@ -836,6 +839,12 @@ footer .container-fluid {
     line-height: 1.5em;
     font-weight: 600
 }
+
+#cfp_details button.selected
+{	
+	/* Aca va el estilo que se pone cuando el botón está apretado y abierto el detalle correspondiente */
+}
+
 #cfp_details h4.panel-title a {
     text-decoration: none
 }
@@ -849,6 +858,21 @@ footer .container-fluid {
 }
 #cfp_details .panel-body {
     text-align: left
+}
+
+.cfp_data
+{
+	padding-bottom:60px;
+}
+
+#cfp_profesional_data
+{
+	background-color:red;
+}
+
+#cfp_cientifico_data
+{
+	background-color:blue;
 }
 /* Footer */
 
