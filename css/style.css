@@ -988,6 +988,13 @@ footer .container-fluid {
 .cfp_data
 {
 	padding-bottom:60px;
+
+	
+}
+
+.cfp_data a.btn-primary
+{
+	width:100%;
 }
 
 #cfp_profesional_data
