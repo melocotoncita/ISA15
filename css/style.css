@@ -554,7 +554,7 @@ footer .container-fluid {
 /* Tickets */
 
 #tickets {
-    background-color: #ED4354; 
+    background-color: #54C4C3; 
     border-style: solid;
     border-width: 0px 11px;
     -moz-border-image: url(../images/circulito.svg) 0 12 repeat;
@@ -614,13 +614,13 @@ footer .container-fluid {
 }
 
 #tickets button{
-  background-color: #ED4354;
+  background-color: #54C4C3;
   color: #fff;
   border-color:#fff;
 }
 
 #tickets button:hover{
-    color:#ED4354;
+    color:#54C4C3;
     background-color:#fff;
     border:1px #fff solid;
 
@@ -628,7 +628,7 @@ footer .container-fluid {
 
 #tickets button:focus{
     color:#fff;
-    background-color:#ED4354;
+    background-color:#54C4C3;
     border:1px #fff solid;
 
 }
@@ -636,7 +636,7 @@ footer .container-fluid {
 #tickets button.selected
 {	
 	background-color:#fff;
-	color:#ED4354;
+	color:#54C4C3;
     border:1px #fff solid;
 
 }
@@ -651,10 +651,6 @@ footer .container-fluid {
 	margin-bottom:30px;
 }
 
-#tickets a:link
-{
-	color: #e1e1e1;
-}
 
 #tickets .container-eventbrite
 {
