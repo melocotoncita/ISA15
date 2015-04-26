@@ -812,11 +812,11 @@ footer .container-fluid {
 }
 /*CFP página interna*/
 
-#invita-objetivos-evaluacion {
-    height: 100vh
+#cfp-organizadores {
+	height: 100vh
 }
 #invitamos-presentar {
-    height: 100vh
+    /* height: 100vh */
 }
 #cfp_details,
 #about_details {
