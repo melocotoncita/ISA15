@@ -815,7 +815,7 @@ footer .container-fluid {
 
 /*CFP página interna*/
 #cfp_hero {
-    background: url(../images/isa-about.jpg) no-repeat fixed center;
+    background: url(../images/cfp.jpg) no-repeat fixed center;
     background-size: cover;
     width: 100%;
     -webkit-background-size: cover;
