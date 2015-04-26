@@ -506,12 +506,14 @@ textarea {
 }
 #about,
 #newsletter,
+#cfp_hero,
 footer {
     display: table;
     width: 100%
 }
 #about .container-fluid,
 #newsletter .container-fluid,
+#cfp_hero .container-fluid,
 footer .container-fluid {
     display: table-cell;
     vertical-align: middle
@@ -810,11 +812,38 @@ footer .container-fluid {
     margin-bottom: 20px;
     line-height: 1.5em
 }
+
 /*CFP página interna*/
+#cfp_hero {
+    background: url(../images/isa-about.jpg) no-repeat fixed center;
+    background-size: cover;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 0
+}
 
-#cfp-organizadores {
-	height: 100vh
+#cfp_hero h4 {
+    color: #54C4C3;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+#cfp_hero .content-block {
+    text-align: center;
+    margin-top: 150px;
+    padding: 20px 30px;
+    background: #fff;
+    margin-bottom: 150px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #515E66
+}
 
+#cfp-objetivos {
+	/* 	 */
 }
 
 #invitamos-presentar {
@@ -827,7 +856,8 @@ footer .container-fluid {
     padding-bottom: 60px
 }
 #cfp_details{
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
+  min-height: 0; 
 }
 #cfp_details p {
     color: #515E66;

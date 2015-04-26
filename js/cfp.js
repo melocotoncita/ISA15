@@ -17,13 +17,13 @@ $(document).ready(function() {
 	});
 	
 	// tipos de convocatoria
-	$("#cfp-organizadores .cfp_call").on('click', function(e) 
+	$("#cfp_details .cfp_call").on('click', function(e) 
 	{
 		var id = $(this).attr("id");
 		
 		if (!$(this).hasClass("selected"))
 		{			
-			$("#cfp-organizadores .cfp_call").removeClass("selected");
+			$("#cfp_details .cfp_call").removeClass("selected");
 			$(this).addClass("selected");
 			
 			$(".cfp_data").slideUp("fast");
@@ -36,7 +36,7 @@ $(document).ready(function() {
 		}
 		else
 		{
-			$("#cfp-organizadores .cfp_call").removeClass("selected");
+			$("#cfp_details .cfp_call").removeClass("selected");
 			$(".cfp_data").slideUp("fast");
 		}
 		
