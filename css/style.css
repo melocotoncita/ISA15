@@ -928,6 +928,12 @@ footer .container-fluid {
   color: #fff;
   border-color:#fff;
   padding:20px 40px;
+
+} 
+
+#cfp_details button h4 {
+    display: block;
+    line-height: 1.5em;
 }
 
 #cfp_details button:hover{
