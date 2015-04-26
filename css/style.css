@@ -857,23 +857,101 @@ footer .container-fluid {
 
 #invitamos-presentar {
     /* height: 100vh */
+    font-family: 'PT Sans', sans-serif;
 }
+
+#invitamos-presentar a {
+    
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+#invitamos-presentar a:hover {
+    color:#54C4C3;
+}
+
+.requisitos {
+    text-align: left;
+}
+
+.requisitos p, .requisitos ul {
+    font-size: 14px;
+    line-height: 1.6em;
+
+}
+
+.requisitos h5 {
+    color:#54C4C3;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
 #cfp_details,
 #about_details {
+    height: 100vh;
     text-align: center;
     padding-top: 70px;
+    background-color: #54C4C3;
+    color: #fff;
     padding-bottom: 60px
 }
 #cfp_details{
   /* padding-bottom: 0px; */
-  min-height: 0; 
+  min-height: 0;
+  height: auto;
 }
-#cfp_details p {
-    color: #515E66;
-    font-size: 16px;
-    line-height: 1.5em;
+
+#cfp_details h2{
+    color:#FFF;
+    margin-bottom: 30px;
+}
+
+
+
+#cfp_details li {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
     font-weight: normal
 }
+
+#cfp_details button {
+  margin-top: 30px;
+  background-color: #54C4C3;
+  text-transform: uppercase;
+  color: #fff;
+  border-color:#fff;
+  padding:20px 40px;
+}
+
+#cfp_details button:hover{
+    color:#54C4C3;
+    background-color:#fff;
+    border:1px #fff solid;
+
+}
+
+#cfp_details button:focus{
+    color:#fff;
+    background-color:#54C4C3;
+    border:1px #fff solid;
+
+}
+
+#cfp_details button.selected
+{   
+    background-color:#fff;
+    color:#54C4C3;
+    border:1px #fff solid;
+
+}
+
 #cfp_details p b {
     color: #515E66;
     font-size: 18px;
@@ -908,7 +986,10 @@ footer .container-fluid {
 
 #cfp_profesional_data
 {
-	background-color:red;
+	background-color:#fff;
+    color: #515E66;
+    font-size: 16px;
+    text-align: center;
 }
 
 #cfp_cientifico_data
