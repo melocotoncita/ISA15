@@ -1112,16 +1112,16 @@ footer .container-fluid {
   right: auto;
 }
 .timeline-badge.primary {
-  background-color: #2e6da4 !important;
+  background-color: #6b6f94 !important;
 }
 .timeline-badge.success {
-  background-color: #3f903f !important;
+  background-color: #e99a50 !important;
 }
 .timeline-badge.warning {
-  background-color: #f0ad4e !important;
+  background-color: #e84454 !important;
 }
 .timeline-badge.danger {
-  background-color: #d9534f !important;
+  background-color: #5fb288 !important;
 }
 .timeline-badge.info {
   background-color: #5bc0de !important;
