@@ -1031,7 +1031,7 @@ footer .container-fluid {
 	margin-bottom:15px;
 }
 
-#cfp_profesional_data
+#cfp_profesional_data, #cfp_cientifico_data
 {
 	background-color:#fff;
     color: #515E66;
@@ -1040,12 +1040,12 @@ footer .container-fluid {
     background: url("../images/stripe.svg") repeat-x top;
 }
 
-#cfp_profesional_data h2 {
+#cfp_profesional_data h2, #cfp_cientifico_data h2 {
     padding:25px 0px;
     color:#6a6f94;
 }
 
-#cfp_profesional_data h6 {
+#cfp_profesional_data h6, #cfp_cientifico_data h6 {
     padding: 40px 0px;
     color:#515E66;
     line-height: 1.5em;
