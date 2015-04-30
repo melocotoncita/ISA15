@@ -839,7 +839,7 @@ footer .container-fluid {
   position: absolute;
   bottom: 30px;
   text-align: center;
-  width: 100%;
+  left: 50%;
 }
 
 #cfp_hero h4 {
@@ -1014,13 +1014,21 @@ footer .container-fluid {
 .cfp_data
 {
 	padding-bottom:60px;
-
-	
 }
 
 .cfp_data a.btn-primary
 {
 	width:100%;
+}
+
+.cfp_participate
+{
+	padding-top:60px;
+}
+
+.cfp_participate a.btn
+{
+	margin-bottom:15px;
 }
 
 #cfp_profesional_data
