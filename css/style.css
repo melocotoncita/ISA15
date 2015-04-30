@@ -864,6 +864,22 @@ footer .container-fluid {
 	/* 	 */
 }
 
+#invita-objetivos-evaluacion {
+    background-color: #6a6f94;
+}
+
+#invita-objetivos-evaluacion h3  {
+    color: #FFF;
+    margin: 40px 0px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#invita-objetivos-evaluacion p {
+    line-height: 1.5em !important;
+    color: #515E66;
+}
+
 #invitamos-presentar {
     /* height: 100vh */
     font-family: 'PT Sans', sans-serif;
@@ -873,6 +889,7 @@ footer .container-fluid {
     
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
+    color:#515E66;
     font-weight: normal;
     text-decoration: none;
     line-height: 1.5em;
@@ -1012,11 +1029,24 @@ footer .container-fluid {
     color: #515E66;
     font-size: 16px;
     text-align: center;
+    background: url("../images/stripe.svg") repeat-x top;
+}
+
+#cfp_profesional_data h2 {
+    padding:25px 0px;
+    color:#6a6f94;
+}
+
+#cfp_profesional_data h6 {
+    padding: 40px 0px;
+    color:#515E66;
+    line-height: 1.5em;
+    font-size: 18px;
 }
 
 #cfp_cientifico_data
 {
-	background-color:blue;
+	background-color:#FFF;
 }
 
 /* Timeline */
@@ -1062,8 +1092,6 @@ footer .container-fluid {
   border-radius: 2px;
   padding: 20px;
   position: relative;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -1124,16 +1152,16 @@ footer .container-fluid {
   background-color: #6b6f94 !important;
 }
 .timeline-badge.success {
-  background-color: #e99a50 !important;
+  background-color: #6b6f94 !important;
 }
 .timeline-badge.warning {
-  background-color: #e84454 !important;
+  background-color: #6b6f94 !important;
 }
 .timeline-badge.danger {
-  background-color: #5fb288 !important;
+  background-color: #6b6f94 !important;
 }
 .timeline-badge.info {
-  background-color: #5bc0de !important;
+  background-color: #6b6f94 !important;
 }
 .timeline-title {
   margin-top: 0;
