@@ -864,18 +864,18 @@ footer .container-fluid {
 	/* 	 */
 }
 
-#invita-objetivos-evaluacion {
+.invita-objetivos-evaluacion {
     background-color: #6a6f94;
 }
 
-#invita-objetivos-evaluacion h3  {
+.invita-objetivos-evaluacion h3  {
     color: #FFF;
     margin: 40px 0px;
     font-size: 26px;
     font-weight: bold;
 }
 
-#invita-objetivos-evaluacion p {
+.invita-objetivos-evaluacion p {
     line-height: 1.5em !important;
     color: #515E66;
 }
