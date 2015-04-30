@@ -1534,7 +1534,9 @@ footer p {
         max-width: 1000px
     }
     #tickets .comprando {
-        margin-bottom: 20px
+        margin-bottom: 20px;
+		margin-left: 5%;
+		width: 90% !important;
     }
     #tickets .container-eventbrite iframe {
         height: 350px
@@ -1563,7 +1565,7 @@ footer p {
         padding: 18px 0px
     }
     #sponsors .btn {
-        width: 100%;
+        width: 90%;
         margin: 0;
         padding: 8px
     }
