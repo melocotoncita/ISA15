@@ -840,6 +840,7 @@ footer .container-fluid {
   bottom: 30px;
   text-align: center;
   left: 50%;
+
 }
 
 #cfp_hero h4 {
@@ -941,6 +942,7 @@ footer .container-fluid {
 
 #cfp_details li {
     color: #fff;
+    list-style-type: none;
     font-size: 18px;
     line-height: 1.3em;
     margin-bottom: 20px;
