@@ -938,7 +938,9 @@ footer .container-fluid {
     margin-bottom: 30px;
 }
 
-
+#cfp_details ul{
+	padding:0 10px;
+}
 
 #cfp_details li {
     color: #fff;
