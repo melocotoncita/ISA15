@@ -1037,7 +1037,7 @@ footer .container-fluid {
 {
 	background-color:#fff;
     color: #515E66;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
     background: url("../images/stripe.svg") repeat-x top;
 }
@@ -1048,10 +1048,10 @@ footer .container-fluid {
 }
 
 #cfp_profesional_data h6, #cfp_cientifico_data h6 {
-    padding: 40px 0px;
+    padding-bottom: 40px;
     color:#515E66;
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #cfp_cientifico_data
