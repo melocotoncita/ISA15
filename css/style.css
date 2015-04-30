@@ -183,7 +183,7 @@ header {
 header .isa-logo {
     background: url(../images/isa-logo.png) no-repeat top;
     background-size: cover;
-    margin: 10px 10px 0;
+    margin: 20px 0 22px 30px;
     width: 150px;
     height: 48px;
     float: left
@@ -219,7 +219,6 @@ header nav ul li {
 }
 .navbar {
     border-radius: 0;
-    padding: 10px 0 20px
 }
 .navbar-bgr {
     background-color: rgba(255, 255, 255, .6)
@@ -241,11 +240,12 @@ header nav ul li {
     background-color: inherit
 }
 .navbar-right {
-    float: right
+    float: right;
+	  margin: 10px 0 0;
 }
 .navbar-right ul {
     float: left;
-    margin: 0
+    margin: 0;
 }
 .navbar-right li {
     float: left;
@@ -266,11 +266,12 @@ header nav ul li {
 }
 .navbar-toggle {
     padding: 10px;
-    margin: 7px 15px 0 0
+    margin: 20px 15px 0 0;
 }
 .navbar-toggle i {
     font-size: 24px;
-    color: #fff
+    color: #fff;
+	margin-right: 10px;
 }
 .navbar-right .dropdown .btn {
     padding: 10px;
@@ -303,9 +304,11 @@ header nav ul li {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease
 }
+
 .navbar-white .isa-logo {
-    background-position: bottom
+  background-position: bottom;
 }
+
 .navbar-white li.disabled {
     color: #515E66;
 }
@@ -325,9 +328,7 @@ li.disabled {
     color: #54C4C3;
     border-radius: 3px
 }
-.navbar-white .navbar-header .navbar-toggle i {
-    color: #515E66
-}
+
 .headroom--pinned {
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown
@@ -1486,7 +1487,7 @@ footer p {
 }
 /* IPAD ----------- */
 
-@media only screen and (max-width: 1233px) {
+@media only screen and (max-width: 937px) {
     .navbar-collapse {
         text-align: center
     }
@@ -1500,11 +1501,9 @@ footer p {
         border: 1px solid #54C4C3!important;
         color: #54C4C3
     }
-    header .isa-logo {
-        background-position: bottom
-    }
+    
     .navbar {
-        background-color: rgba(255, 255, 255, .95);
+        background-color: #303f49;
     }
     .navbar-collapse.in {
         height: 100vh;
@@ -1525,9 +1524,11 @@ footer p {
         text-align: center;
 		background-color:white;
     }
-    .navbar-header .navbar-toggle i {
-        color: #515E66
-    }
+    
+	.navbar-white .isa-logo {
+		background-position: inherit;
+	}
+
     .sponsor-grid {
         line-height: 100px;
         max-width: 1000px
