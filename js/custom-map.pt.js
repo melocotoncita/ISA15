@@ -28,7 +28,7 @@ google.maps.event.addDomListener(window, 'load', init);
         var mapElement = document.getElementById('map-container');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Ciudad de las Artes', '<b>Dias 3 y 4</b></br>Avenida Richieri y Concepción Arenales', 'undefined', 'undefined', 'undefined', -31.436021,-64.174812, 'https://mapbuildr.com/assets/img/markers/default.png']
+['Ciudad de las Artes', '<b>Dias 3 e 4</b></br>Avenida Richieri y Concepción Arenales', 'undefined', 'undefined', 'undefined', -31.436021,-64.174812, 'https://mapbuildr.com/assets/img/markers/default.png']
         ];
         for (i = 0; i < locations.length; i++) {
       if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -50,7 +50,7 @@ link = '';            bindInfoWindow(marker, map, locations[i][0], description, 
      }
  function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
         var infowindow = new google.maps.InfoWindow();
-        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:300px;margin:0 auto;text-align:center;'><h5 style='color:#FF7700;'>"+title+"</h5><p>"+desc+"<p></div>";
+        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:300px;margin:0 auto;text-align:center;'><h4 style='color:#FF7700;'>"+title+"</h4><p>"+desc+"<p></div>";
         infowindow.setContent(html);
         infowindow.open(map, marker);
    }

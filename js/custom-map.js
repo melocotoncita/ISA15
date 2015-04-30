@@ -50,7 +50,7 @@ link = '';            bindInfoWindow(marker, map, locations[i][0], description, 
      }
  function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
         var infowindow = new google.maps.InfoWindow();
-        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:300px;margin:0 auto;text-align:center;'><h5 style='color:#FF7700;'>"+title+"</h5><p>"+desc+"<p></div>";
+        var html= "<div style='color:#000;background-color:#fff;padding:5px;width:300px;margin:0 auto;text-align:center;'><h4 style='color:#FF7700;'>"+title+"</h4><p>"+desc+"<p></div>";
         infowindow.setContent(html);
         infowindow.open(map, marker);
    }
