@@ -959,7 +959,7 @@ footer .container-fluid {
   color: #fff;
   border-color:#fff;
   padding:20px 40px;
-
+  width: 100%;
 } 
 
 #cfp_details button h4 {
