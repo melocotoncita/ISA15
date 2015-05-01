@@ -319,8 +319,6 @@ li.disabled {
 .navbar-white .navbar-collapse ul li a {
     color: #54C4C3;
     font-weight: 500;
-	width: 90%;
-    margin: 0 auto;
 }
 .navbar-white .navbar-collapse ul li {
     font-weight: 500
@@ -1531,6 +1529,11 @@ footer p {
 		background-position: inherit;
 	}
 
+	.navbar-white .navbar-collapse ul li a {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
     .sponsor-grid {
         line-height: 100px;
         max-width: 1000px
