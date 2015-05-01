@@ -853,13 +853,13 @@ footer .container-fluid {
 #cfp_hero .content-block {
     text-align: center;
     margin-top: 150px;
-    padding: 20px 30px;
+    padding: 20px 20px;
     background: #fff;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     border: 1px solid #fff;
     border-radius: 3px;
     font-size: 16px;
-    color: #515E66
+    color: #515E66;
 }
 
 #cfp-objetivos {
