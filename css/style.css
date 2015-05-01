@@ -1556,6 +1556,9 @@ footer p {
         color: #54C4C3;
         border-color: #54C4C3;
     }
+	
+	
+	
 }
 /* IPHONE ----------- */
 
@@ -1589,6 +1592,13 @@ footer p {
     .grid-details {
         overflow: auto
     }
+}
+
+
+@media only screen and (max-width: 991px) {
+	#newsletter input {
+		margin-bottom: 15px !important;
+	}
 }
 /* Speaker Grid Responsive Fix----------- */
 
