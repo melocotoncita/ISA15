@@ -3,7 +3,7 @@ google.maps.event.addDomListener(window, 'load', init);
     function init() {
         var mapOptions = {
             center: new google.maps.LatLng(-31.436021,-64.174812),
-            zoom: 16,
+            zoom: 15,
             zoomControl: true,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT,
@@ -17,7 +17,7 @@ google.maps.event.addDomListener(window, 'load', init);
             scrollwheel: false,
             panControl: true,
             streetViewControl: true,
-            draggable : true,
+            draggable : false,
             overviewMapControl: true,
             overviewMapControlOptions: {
                 opened: false,
