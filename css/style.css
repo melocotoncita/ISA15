@@ -956,7 +956,6 @@ footer .container-fluid {
 .requisitos p, .requisitos ul {
     font-size: 14px;
     line-height: 1.6em;
-
 }
 
 .requisitos h5 {
@@ -974,13 +973,13 @@ footer .container-fluid {
     color: #fff;
     padding-bottom: 60px
 }
-#cfp_details{
+#cfp_details {
   /* padding-bottom: 0px; */
   min-height: 0;
   height: auto;
 }
 
-#cfp_details h2{
+#cfp_details h2 {
     color:#FFF;
     margin-bottom: 30px;
 }
@@ -1018,11 +1017,9 @@ footer .container-fluid {
     color:#fff;
     background-color:#54C4C3;
     border:1px #fff solid;
-
 }
 
-#cfp_details button.selected
-{
+#cfp_details button.selected {
     background-color:#fff;
     color:#54C4C3;
     border:1px #fff solid;
@@ -1066,18 +1063,15 @@ footer .container-fluid {
 	width:100%;
 }
 
-.cfp_participate
-{
+.cfp_participate {
 	padding-top:60px;
 }
 
-.cfp_participate a.btn
-{
+.cfp_participate a.btn {
 	margin-bottom:15px;
 }
 
-#cfp_profesional_data, #cfp_cientifico_data
-{
+#cfp_profesional_data, #cfp_cientifico_data {
 	background-color:#fff;
     color: #515E66;
     font-size: 16px;
@@ -1097,16 +1091,16 @@ footer .container-fluid {
     font-size: 18px;
 }
 
-#cfp_cientifico_data
-{
+#cfp_cientifico_data {
 	background-color:#FFF;
 }
 
 /* About Page */
-.about_hero {
+.about-hero {
     width: 100%;
     padding-top: 90px;
     padding-bottom: 0;
+    min-height: auto;
 }
 .hero-image {
     padding: 0;
@@ -1115,19 +1109,19 @@ footer .container-fluid {
     width: 100%;
     height: auto;
 }
-.about_hero h2, .about_inscription h2 {
+.about-hero h2, .about_inscription h2 {
     font-weight: 300;
     margin-bottom: 20px;
 }
-.about_hero h2 {
+.about-hero h2 {
     text-align: left;
     padding-top: 20px;
 }
 
-.about_hero p, .about_highlights p, .about_inscription p  {
+.about-hero p, .about_highlights p, .about_inscription p  {
     line-height: 1.5;
 }
-.about_hero p:last-child {
+.about-hero p:last-child {
     padding-bottom: 50px;
 }
 .about_highlights {
@@ -1146,8 +1140,14 @@ footer .container-fluid {
     overflow: hidden;
 }
 
+
+
 #video-gallery {
   width: 100%;
+}
+.video-gallery {
+  min-height: auto;
+  padding-bottom: 0;
 }
 
 .videoGallery .rsTmb {
@@ -1171,12 +1171,11 @@ footer .container-fluid {
 }
 
 .sampleBlock {
-  left: 3%; 
-  top: 1%; 
+  left: 3%;
+  top: 1%;
   width: 100%;
   max-width: 400px;
 }
-
 
 @media screen and (min-width: 0px) and (max-width: 500px) {
   .videoGallery .rsTmb {
@@ -1247,6 +1246,9 @@ footer .container-fluid {
     line-height: 20px;
     height: 100%;
     padding: 100px 30px 0 30px;
+}
+.first-days .card__text, .last-days .card__text {
+    padding-top: 70px;
 }
 
 /* hover effect */
