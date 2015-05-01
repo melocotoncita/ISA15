@@ -954,7 +954,7 @@ footer .container-fluid {
 
 #cfp_details button {
   margin-top: 30px;
-  background-color: #54C4C3;
+  background-color: #6b6f94;
   text-transform: uppercase;
   color: #fff;
   border-color:#fff;
@@ -968,7 +968,7 @@ footer .container-fluid {
 }
 
 #cfp_details button:hover{
-    color:#54C4C3;
+    color:#6b6f94;
     background-color:#fff;
     border:1px #fff solid;
 
@@ -976,7 +976,7 @@ footer .container-fluid {
 
 #cfp_details button:focus{
     color:#fff;
-    background-color:#54C4C3;
+    background-color:#6b6f94;
     border:1px #fff solid;
 
 }
@@ -984,7 +984,7 @@ footer .container-fluid {
 #cfp_details button.selected
 {   
     background-color:#fff;
-    color:#54C4C3;
+    color:#6b6f94;
     border:1px #fff solid;
 
 }
