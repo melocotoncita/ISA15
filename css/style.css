@@ -796,6 +796,12 @@ footer .container-fluid {
 #sponsors img {
     width: 200px
 }
+#small {
+    width: 135px!important;
+}
+#xsmall {
+    width: 82px!important;
+}
 #sponsors h3 {
     font-family: 'Dosis', sans-serif;
     color: #515E66;
