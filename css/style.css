@@ -686,7 +686,7 @@ footer .container-fluid {
 
 #tickets .container-eventioz iframe
 {
-	height:500px;
+	height:830px;
 }
 /* Team */
 
@@ -1553,7 +1553,7 @@ footer p {
         height: 400px
     }
     #tickets .container-eventioz iframe {
-        height: 850px
+        height: 1050px
     }
     #tickets .container-eventioz {
         padding-left: 15%
