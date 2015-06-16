@@ -902,6 +902,16 @@ footer .container-fluid {
     text-decoration: none;
     line-height: 1.5em;
 }
+#papers a{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	color: #54C4C3;
+	font-weight: 500;
+	text-decoration: none;
+	}
+	
+	#papers a:hover{
+	font-weight: 600;}
 
 #invitamos-presentar a:hover {
     color:#54C4C3;
@@ -924,6 +934,8 @@ footer .container-fluid {
     margin-top: 10px;
 
 }
+
+#cfp_cient_cm ul {list-style-type: none;}
 
 #cfp_details,
 #about_details {
