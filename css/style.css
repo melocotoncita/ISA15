@@ -1075,6 +1075,17 @@ footer .container-fluid {
     font-size: 16px;
 }
 
+#cfp_profesional_data p.sub_participate, #cfp_cientifico_data p.sub_participate
+{
+	font-size:0.9em;
+	  margin-bottom: 0;
+}
+
+#cfp_profesional_data .row a, #cfp_cientifico_data .row a
+{
+	margin-bottom:30px;
+}
+
 #cfp_cientifico_data
 {
 	background-color:#FFF;
