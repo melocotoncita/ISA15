@@ -2,7 +2,7 @@ google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
         var mapOptions = {
-            center: new google.maps.LatLng(-31.436021,-64.174812),
+            center: new google.maps.LatLng(-31.425170, -64.184916),
             zoom: 15,
             zoomControl: true,
             zoomControlOptions: {
@@ -28,7 +28,8 @@ google.maps.event.addDomListener(window, 'load', init);
         var mapElement = document.getElementById('map-container');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Ciudad de las Artes', '<b>Días 3 y 4</b></br>Avenida Richieri y Concepción Arenales', 'undefined', 'undefined', 'undefined', -31.436021,-64.174812, 'https://mapbuildr.com/assets/img/markers/default.png']
+['Ciudad de las Artes', '<b>Días 3 y 4</b></br>Avenida Richieri y Concepción Arenales', 'undefined', 'undefined', 'undefined', -31.436021,-64.174812, 'https://mapbuildr.com/assets/img/markers/default.png'],
+['Colegio Universitario IES21', '<b>Días 1 y 2</b></br>Rondeau 165', 'undefined', 'undefined', 'undefined', -31.4225357,-64.1845433, 'https://mapbuildr.com/assets/img/markers/default.png']
         ];
         for (i = 0; i < locations.length; i++) {
       if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
