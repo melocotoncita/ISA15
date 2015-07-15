@@ -67,7 +67,8 @@ body {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    overflow-x: hidden
+    overflow-x: hidden;
+    position: relative;
 }
 h1,
 h2,
@@ -413,6 +414,14 @@ li.disabled {
     left: 50%;
     margin-top: -160px;
     margin-left: -100px
+}
+.hero-block {
+    padding-right: 0;
+    margin-top: 200px;
+}
+.hero-intro {
+    background: #fff;
+    padding: 60px 50px 40px;
 }
 .copy {
     width: 100%;
@@ -790,7 +799,7 @@ footer .container-fluid {
     padding: 0
 }
 #newsletter input {
-    background-color: white
+    background-color: #fff
 }
 #newsletter button {
     padding: 9px 30px;
@@ -1171,10 +1180,188 @@ footer .container-fluid {
     overflow: hidden;
 }
 
+/* ==========================================================================
+   Turismo
+   ========================================================================== */
+/*
+    #web-development,
+    #mobile-development {
+      padding-bottom: 0;
+    }
+
+    section:last-child {
+      border-bottom: none;
+    }  */
+
+    .hero-tourism {
+        background: url(../images/catedral.jpg) no-repeat center;
+        background-size: cover;
+        min-height: 650px;
+        height: unset;
+    }
+    .stripe {
+        background: url("../images/stripe.svg") repeat-x bottom;
+        height: 11px;
+        border: 0;
+        margin: 0;
+    }
+    .hero-tourism h1 {
+        text-align: left;
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .hero-tourism p {
+        font-size: unset;
+        text-align: left;
+    }
+    .photo-credits {
+        overflow: hidden;
+        position: relative;
+        height: 656px;
+    }
+    .photo-credits p {
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+        color: #C7BBB6;
+        font-size: 12px;
+        margin: 0;
+    }
+    .affix-nav {
+      padding: 0;
+    }
+    .affix-nav a {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        display: block;
+        padding: 12px 18px;
+    }
+    .affix-content section {
+        min-height: unset;
+        padding-bottom: 0;
+    }
+    .affix-content section h3 {
+        padding-top: 120px;
+        text-align: left;
+        margin-top: 0;
+    }
+    .affix-content section:first-child h3 {
+        padding-top: 0;
+    }
+    .affix-content h4 {
+        margin-bottom: 20px;
+    }
+    .hero-tourism h1,
+    .affix-content h3,
+    .affix-content h4,
+    .affix-content a,
+    .affix-content a:hover {
+        color: #54C4C3;
+        font-weight: 300;
+    }
+    .affix-content p, .hero-block p {
+        line-height: 1.8;
+        margin: 0 0 20px;
+    }
+
+    .affix-nav li {
+        list-style-type: none;
+    }
+    .affix-nav li:nth-child(1) {
+        background: rgba(84, 196, 195, 1);
+    }
+    .affix-nav li:nth-child(2) {
+        background: rgba(84, 196, 195, 0.92);
+    }
+    .affix-nav li:nth-child(3) {
+        background: rgba(84, 196, 195, 0.84);
+    }
+    .affix-nav li:nth-child(4) {
+        background: rgba(84, 196, 195, 0.76);
+    }
+    .affix-nav li:nth-child(5) {
+        background: rgba(84, 196, 195, 0.68);
+    }
+    .affix-nav li:nth-child(6) {
+        background: rgba(84, 196, 195, 0.60);
+    }
+
+    .affix-nav li a:hover,
+    .affix-nav li a:focus {
+      background: #515E66;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .affix-nav .active {
+      font-weight: bold;
+      background: #72bcd4;
+    }
+
+    .affix-nav .nav {
+      display: none;
+    }
+
+    .affix-nav .active .nav {
+      display: block;
+    }
+
+    .affix-nav .nav a {
+      font-weight: normal;
+      font-size: .85em;
+    }
+
+    .affix-nav .nav span {
+      margin: 0 5px 0 2px;
+    }
+
+    .affix-nav .active a,
+    .affix-nav .active:hover a,
+    .affix-nav .active:focus a {
+      font-weight: bold;
+      padding-left: 30px;
+      border-left: 5px solid black;
+    }
+
+    .affix-nav .active span,
+    .affix-nav .active:hover span,
+    .affix-nav .active:focus span {
+      display: none;
+    }
+
+    .application {
+      border-top: 1px solid #c1e1ec;
+    }
+
+    .affix-top {
+      position: relative;
+    }
+
+    .affix {
+      top: 117px;
+    }
+
+    .affix,
+    .affix-bottom {
+        width: 213px;
+    }
+
+    .affix-bottom {
+      position: absolute;
+    }
+
+    @media (min-width:1200px) {
+      .affix,
+      .affix-bottom {
+        width: 254px;
+      }
+    }
 
 /* ==========================================================================
    Video gallery
-   ========================================================================== */
+   ========================================================================== 
 
 #video-gallery {
   width: 100%;
