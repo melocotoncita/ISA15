@@ -1082,7 +1082,9 @@ footer .container-fluid {
 {
 	/* Aca va el estilo que se pone cuando el botón está apretado y abierto el detalle correspondiente */
 }
-
+#cfp_profesional_data .row a, #cfp_cientifico_data .row a {
+  margin-bottom: 30px;
+}
 #cfp_details h4.panel-title a {
     text-decoration: none
 }
