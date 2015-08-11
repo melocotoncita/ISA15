@@ -1157,6 +1157,18 @@ footer .container-fluid {
     padding-bottom: 0;
     min-height: auto;
 }
+
+.about-hero a{
+   color:#00C5C5;
+   font-weight: normal;
+}
+
+.about-hero a:hover{
+   color:#00C5C5;
+   font-weight: normal;
+   text-decoration: underline;
+}
+
 .hero-image {
     padding: 0;
 }
@@ -1178,7 +1190,7 @@ footer .container-fluid {
     line-height: 1.5;
 }
 .about-hero p:last-child {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .about_highlights {
     padding: 0;
@@ -1195,6 +1207,10 @@ footer .container-fluid {
     list-style-type: none;
     color: #ffffff;
     overflow: hidden;
+}
+
+.about_highlights li a {
+   color:#00C5C5;
 }
 
 /* ==========================================================================
