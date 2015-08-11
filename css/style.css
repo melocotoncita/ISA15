@@ -1,8 +1,11 @@
 /* ==========================================================================
+   ISA 2015 - styles
+   ========================================================================== */
+/* ==========================================================================
    Dependencies
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|PT+Sans:400|Dosis:300,400,500);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700|PT+Sans:400|Dosis:300,400,500);
 @font-face {
     font-family: 'icomoon';
     src:url('../fonts/icomoon.eot?ch9785');
@@ -1159,7 +1162,8 @@ footer .container-fluid {
 }
 .hero-image img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    height: 100vh;
 }
 .about-hero h2, .about-inscription h2 {
     font-weight: 300;
@@ -1217,7 +1221,7 @@ footer .container-fluid {
         margin-bottom: 25px;
     }
     .hero-tourism p {
-        text-align: left;
+        /* text-align: left; */
     }
     .photo-credits {
         height: 100%;
@@ -1280,6 +1284,12 @@ footer .container-fluid {
     .affix-content a:hover {
         color: #54C4C3;
     }
+	
+	#tourists .affix-content h3 {
+    color: #515E66;
+    font-weight: 800;
+	}
+	
     .affix-content p, .hero-block p {
         line-height: 1.8;
         margin: 0 0 20px;
