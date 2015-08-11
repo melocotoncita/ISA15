@@ -2029,10 +2029,10 @@ footer p {
 		width: 90% !important;
     }
     #tickets .container-eventbrite iframe {
-        height: 400px
+        height: 850px;
     }
     #tickets .container-eventioz iframe {
-        height: 850px
+        height: 850px;
     }
     #tickets .container-eventioz {
         padding-left: 15%
