@@ -1826,6 +1826,12 @@ footer p {
     opacity: 1;
     border-radius: 3px
 }
+
+.speaker-block .small-clihc-logo
+{
+	padding-top: 40px;
+}
+
 .speaker-grid li {
     display: inline-block;
     margin: 10px 5px 0 5px;
