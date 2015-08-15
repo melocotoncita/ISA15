@@ -80,7 +80,7 @@ h4,
 h5 {
     font-family: 'Dosis', sans-serif;
     padding: 0;
-    font-weight: 500
+    font-weight: 500;
 }
 h1,
 h2 {
@@ -92,7 +92,7 @@ h2 {
 }
 h3 {
     font-size: 30px;
-    margin-bottom: 30px
+    margin-top: 30px;
 }
 h4 {
     font-size: 24px
@@ -882,7 +882,8 @@ footer .container-fluid {
     font-size: 24px
 }
 #sponsors .btn {
-    margin: 0
+    margin: 0;
+	margin-top: 10px;
 }
 #sponsors .btn-primary {
     padding: 10px 40px
