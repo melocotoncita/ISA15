@@ -1976,6 +1976,21 @@ footer p {
     color: #54C4C3;
     text-decoration: none
 }
+
+/* Sponsors ----------- */
+#medium {
+	width:250px !important
+}
+
+#small {
+	width:140px !important
+}
+
+#xsmall {
+	width:100px !important
+}
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
