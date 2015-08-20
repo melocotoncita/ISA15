@@ -1334,6 +1334,9 @@ footer .container-fluid {
     #affix-nav li:nth-child(6) {
         background: rgba(84, 196, 195, 0.60);
     }
+	#affix-nav li:nth-child(7) {
+        background: rgba(84, 196, 195, 0.52);
+    }
 
     #affix-nav li a:hover,
     #affix-nav li a:focus {
@@ -1995,6 +1998,37 @@ footer p {
 
 #xsmall {
 	width:100px !important
+}
+
+/* Hoteles */
+
+.hoteles thead th
+{
+	color:white;
+	background:#55bfbf;
+	font-weight:normal;
+}
+
+.hoteles thead th:nth-child(3)
+{
+	text-align:center;
+}
+
+.hoteles td a
+{
+	font-weight:normal;
+}
+
+.hoteles td:nth-child(3)
+{
+	color:	rgba(1,1,1,0.3);
+	text-align:center;
+}
+
+.hoteles td:nth-child(3) b
+{
+	font-weight:normal;
+	color:black;
 }
 
 
