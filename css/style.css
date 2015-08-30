@@ -745,6 +745,7 @@ footer .container-fluid {
 	padding-left:20px;
 	background-color:#fff;
 	border-radius: 3px;
+
 }
 
 #tickets .container-eventbrite iframe
@@ -754,8 +755,15 @@ footer .container-fluid {
 
 #tickets .container-eventioz iframe
 {
-	height:500px;
+	height:800px;
 }
+
+.container-eventioz .bg-warning {
+    color: #000 !important;
+    margin-top:10px;
+
+}
+
 /* Team */
 
 #team {
