@@ -1029,6 +1029,19 @@ Sections
     .workshop-page .btn-register-discount {
         background: #6A6E9A;
         padding: 6px 20px;
+        border-radius: 25px;
+        font-family: Dosis, sans-serif;
+        text-transform: uppercase;
+        margin-right: 5px;
+        display: inline-block;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
     }
     .workshop-page .btn-register-discount span {
         display: block;
@@ -1848,6 +1861,15 @@ Video gallery
     .timeline-body > p + p {
       margin-top: 5px;
     }
+
+/* ==========================================================================
+Workshops
+   ========================================================================== */
+
+article a:hover {
+    text-decoration: none;
+}
+
 
 /* Footer */
 
