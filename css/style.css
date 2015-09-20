@@ -1322,6 +1322,15 @@ Call to proposals
     line-height: 150%;
 }
 
+#clihc-program {
+    background: url("../images/stripe.svg") repeat-x top;
+}
+
+#clihc-program h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* ==========================================================================
 About ISA
    ========================================================================== */
