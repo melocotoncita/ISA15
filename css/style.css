@@ -1547,6 +1547,23 @@ About ISA
         margin: 40px 0;
     }
 
+
+
+/* ==========================================================================
+programa
+   ========================================================================== */
+
+    .hero-programa{
+        background: url(../images/programa-pic.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover
+    }
+
+    
+
+
 /* ==========================================================================
 Turismo
    ========================================================================== */
