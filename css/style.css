@@ -1098,6 +1098,13 @@ Sections
             background-color: #303F49;
             max-height: none;
         }
+		
+		.workshop-page .no-workshop-avatar {
+            width: 45%;
+            background-color: #54C4C3;
+            max-height: none;
+        }
+		
         .workshop-page .workshop-main {
             padding: 15px 25px 20px;
             background: none;
@@ -1116,6 +1123,9 @@ Sections
         }
         .workshop-page .workshop-avatar {
             width: 300px;
+        }
+		.workshop-page .no-workshop-avatar {
+            width: 220px;
         }
         .workshop-details {
             width: 250px;
