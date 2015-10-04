@@ -754,7 +754,7 @@ Sections
 
     #tickets .container-eventbrite iframe
     {
-    	height:1200px;
+    	height:400px;
     }
 
     #tickets .container-eventioz iframe
@@ -2383,7 +2383,7 @@ Media Queries
     		width: 90% !important;
         }
         #tickets .container-eventbrite iframe {
-            height: 1200px;
+            height: 600px;
         }
         #tickets .container-eventioz iframe {
             height: 850px;
