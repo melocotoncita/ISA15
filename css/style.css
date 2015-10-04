@@ -982,6 +982,12 @@ Sections
         background: #FAFAFA;
         padding: 20px;
     }
+	
+	.workshop-content a, .workshop-content a:hover {
+        color: #54C4C3;
+    }
+	
+	
     .workshop-content p {
         font-size: 14px;
         line-height: 1.5;
