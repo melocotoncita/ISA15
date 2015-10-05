@@ -1161,14 +1161,15 @@ Sections
         }
         .workshop-page .cta {
             position: absolute;
-            right: 20px;
-            bottom: 20px;
+            right: 245px;
+			bottom: 30px;
         }
     }
 
     @media only screen and (min-width: 991px) {
         .workshop-page .workshop-title {
             font-size: 40px;
+			width:80%;
         }
     }
 /* ==========================================================================
