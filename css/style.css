@@ -2397,11 +2397,6 @@ Speaker grid
     	color:black;
     }
 	
-	/* //////// SCHED /////////////// */
-	
-	.event {
-		box-shadow:none !important;
-	}
 
 /* ==========================================================================
 Media Queries
