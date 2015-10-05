@@ -1040,7 +1040,7 @@ Sections
         font-weight: bold;
     }
     .workshop-page .btn {
-        border-radius: 25px;
+        /* border-radius: 25px; */
         text-transform: uppercase;
         font-family: Dosis, sans-serif;
         margin: 5px 0;
