@@ -999,6 +999,11 @@ Sections
         line-height: 1.5;
         margin-bottom: 15px;
     }
+	.workshop-content p.note {
+		color: grey;
+		font-style: italic;
+	}
+	
     .workshop-content h3 {
         color: #54C4C3;
     }
