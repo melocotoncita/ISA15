@@ -2370,6 +2370,10 @@ Speaker grid
     #medium {
     	width:250px !important
     }
+	
+	#smedium {
+    	width:195px !important
+    }
 
     #small {
     	width:140px !important
